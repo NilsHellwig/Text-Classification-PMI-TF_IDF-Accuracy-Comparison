@@ -1,0 +1,904 @@
+person;id;user_frame;pre_user_frame;system_frame;pre_system_frame;Polite;Human;Detailed;query;response;preresponse;sarcasm;rephrasing;task;condition
+VP1.1T;1;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;text
+VP1.1T;2;2.1;1;0;1;0;1;0;Ich vrauche ein rezept fuer ein veganes Gericht;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Hallo! Was kann ich fuer dich tun?;0;1;1;text
+VP1.1T;3;2.1;2.1;2.1;0;0;0;0;Veganes gericht;Wie wuerdest du deine Kochfaehigkeiten einschaetzen?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;1;text
+VP1.1T;4;2.1;2.1;3.1;2.1;;;;Gut;"Wie klingen ""Vegane Muffins mit veganer Buttercreme""";Wie wuerdest du deine Kochfaehigkeiten einschaetzen?;0;0;1;text
+VP1.1T;5;2.1;2.1;2.1;3.1;;;;Ich moechte ein Hauptgericht;Wieviel Zeit hast du zum Kochen?;"Wie klingen ""Vegane Muffins mit veganer Buttercreme""";0;0;1;text
+VP1.1T;6;2.1;2.1;2.1;2.1;;;;4 Stunden;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Wieviel Zeit hast du zum Kochen?;0;0;1;text
+VP1.1T;7;2.1;2.1;3.1;2.1;;;;Currys waeren gut, Keine salate;"Wie klingt ""Einfaches Rote-Linsen-Spinat-Curry"" fuer dich?";Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;1;text
+VP1.1T;8;3.1;2.1;3.2;3.1;0;;;Sehr gut;Moechtest du mehr Informationen zu diesem Rezept?;"Wie klingt ""Einfaches Rote-Linsen-Spinat-Curry"" fuer dich?";0;0;1;text
+VP1.1T;9;3.2;3.1;3.4;3.2;;;;Ja;Rezept;Moechtest du mehr Informationen zu diesem Rezept?;0;0;1;text
+VP1.1T;10;4;3.2;3.4;3.4;;;;Ja;Rezept Link;Rezept;0;0;1;text
+VP1.2T;11;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;text
+VP1.2T;12;2.1;1;2.1;1;0;1;0;Ich suche ein Verband Rezept.;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Hallo! Was kann ich fuer dich tun?;0;1;1;text
+VP1.2T;13;2.1;2.1;-1;2.1;;;;Ich suche ein Veganes Rezept;Wieviel Zeit hast du zum Kochen?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;1;text
+VP1.2T;14;2.1;2.1;2.1;-1;;;;Ca 4h;Wie wuerdest du deine Kochfaehigkeiten einschaetzen?;Wieviel Zeit hast du zum Kochen?;0;0;1;text
+VP1.2T;15;2.1;2.1;2.1;2.1;;;;Sehr gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfaehigkeiten einschaetzen?;0;0;1;text
+VP1.2T;16;2.1;2.1;2.1;2.1;;;;Ich erwarte 2 personen;gibt es Allergiker?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;1;text
+VP1.2T;17;2.1;2.1;2.1;2.1;;;;Ich bin mir nicht sicher;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;gibt es Allergiker?;0;0;1;text
+VP1.2T;18;2.1;2.1;2.1;2.1;;;;Was meinst du damit?;Daempfen, Grillen, Braten, Frittieren etc.;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;1;text
+VP1.2T;19;2.1;2.1;2.2;2.1;;;;Ich mag braten;Was sind deine Lieblingszutaten?;Daempfen, Grillen, Braten, Frittieren etc.;0;0;1;text
+VP1.2T;20;2.2;2.1;2.2;2.2;;;;Avocado's, Nudeln, Kartoffeln und Zwiebeln;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Was sind deine Lieblingszutaten?;0;0;1;text
+VP1.2T;21;2.2;2.2;3.1;2.2;;;;Pfeffer und paprika;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Gemuese-Nudeln mit Cashew-Avocado-Sauce ""Moechtest du die Rezeptliste sehen?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;1;text
+VP1.2T;22;3.1;2.2;3.3;3.1;1;;;Ja bitte;Liste/Wie gefallen dir die Zutaten?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Gemuese-Nudeln mit Cashew-Avocado-Sauce ""Moechtest du die Rezeptliste sehen?";0;0;1;text
+VP1.2T;23;3.3;3.1;3.4;3.3;;;;Sehr gut.;Zeige Zubereitung /Moechtest du das Rezept sehen;Liste/Wie gefallen dir die Zutaten?;0;0;1;text
+VP1.2T;24;5;3.3;3.4;3.4;;;; Wie bereite ich es zu;Zeige Zubereitung /Moechtest du das Rezept sehen;Zeige Zubereitung /Moechtest du das Rezept sehen;0;0;1;text
+VP1.2T;25;3.2;5;-1;3.4;;;;Nein danke;NaN;Zeige Zubereitung /Moechtest du das Rezept sehen;0;0;1;text
+VP1.3T;26;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;text
+VP1.3T;27;2.1;1;2.1;1;0;1;0;Nenne mir ein veganes Rezept;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;1;text
+VP1.3T;28;2.1;2.1;2.1;2.1;;;;3 Stunden;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;1;text
+VP1.3T;29;5;2.1;0;2.1;;;;Rate mir was;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Auf was hast du Lust?;0;0;1;text
+VP1.3T;30;5;5;-1;0;;;;Schlager mir ein Rezept vor;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;1;text
+VP1.3T;31;2.1;5;2.1;-1;;;;Schlag mir ein Rezept vor;Erwartest du Besuch oder kochst du fuer dich allein?;NaN;0;0;1;text
+VP1.3T;32;2.1;2.1;2.1;2.1;;;;Besuch;gibt es Allergiker?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;1;text
+VP1.3T;33;2.1;2.1;2.1;2.1;;;;Nein;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;gibt es Allergiker?;0;0;1;text
+VP1.3T;34;2.1;2.1;2.1;2.1;;;;Ich kann ueberleben;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;1;0;1;text
+VP1.3T;35;2.1;2.1;2.2;2.1;;;;Ich kenne keine Rezepte;Was sind deine Lieblingszutaten?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;1;text
+VP1.3T;36;2.2;2.1;2.2;2.2;;;;Gewuerze;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;1;text
+VP1.3T;37;2.2;2.2;2.2;2.2;;;;Kartoffeln;Welche Zutaten wuerdest du niemals benuetzen?;Welches Gemuese magst du?;0;0;1;text
+VP1.3T;38;2.2;2.2;2.2;2.2;;;;Nichts giftiges;Was fuer Zutaten hast du gemeint?;Welche Zutaten wuerdest du niemals benuetzen?;1;0;1;text
+VP1.3T;39;2.2;2.2;3.1;2.2;;;;Oliven;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Vegane Lauch-Kartoffel-""Kaese""- Suppe"". Wie klingt das fuer dich?";Was fuer Zutaten hast du gemeint?;0;0;1;text
+VP1.3T;40;3.1;2.2;3.2;3.1;0;;;gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Vegane Lauch-Kartoffel-""Kaese""- Suppe"". Wie klingt das fuer dich?";0;0;1;text
+VP1.3T;41;3.2;3.1;3.4;3.2;;;;nein;Link;Moechtest du die Zutatenliste sehen?;0;0;1;text
+VP1.6T;42;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;text
+VP1.6T;43;2.1;1;2.1;1;0;1;1;ich brauche ein veganes Wok Rezept fuer 3 Personen;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;1;text
+VP1.6T;44;2.1;2.1;2.1;2.1;;;;leichte Zuege, aber noch eher konventionell;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Wie ausgefallen darf das Rezept sein?;0;0;1;text
+VP1.6T;45;2.1;2.1;2.2;2.1;;;;ich wollte nur ein veganes Wok Rezept fuer 3;Welches Gemuese magst du?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;1;text
+VP1.6T;46;2.2;2.1;3.1;2.2;;;;Alle herkoemmlichen Sorten, nicht zu viel Pilze;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Brokkoli-Wok mit Cashew und Tofu"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;1;text
+VP1.6T;47;5;2.2;-1;3.1;;;;gibt es eins ohne tofu;NaN;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Brokkoli-Wok mit Cashew und Tofu"". Wie klingt das fuer dich?";0;0;1;text
+VP1.6T;48;3.1;5;3.1;-1;0;;;sonst gut;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Chinakohl aus dem Wok"". Wie klingt das fuer dich?";NaN;0;0;1;text
+VP1.6T;49;3.1;3.1;3.3;3.1;1;;;Zutaten bitte;Zutatenliste;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Chinakohl aus dem Wok"". Wie klingt das fuer dich?";0;0;1;text
+VP1.6T;50;3.3;3.1;3.4;3.3;;;;gut Rezept schicken;Rezept;Zutatenliste;0;0;1;text
+VP1.6T;51;4;3.3;-1;3.4;;;;bitte, danke TeleFood;NaN;Rezept;0;0;1;text
+VP1.8T;52;4;4;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;text
+VP1.8T;53;2.1;4;-1;1;0;2;2;Suche mir ein Rezept raus, das ich innerhalb von ca. 5 Minuten machen kann, und unter anderem Toast, Ei enthaelt;NaN;Hallo! Was kann ich fuer dich tun?;0;0;1;text
+VP1.8T;54;2.1;2.1;3.1;-1;;;;es soll so wenig Aufwand sein wie moeglich;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kaviar-eier-toast"". Wie klingt das fuer dich?";NaN;0;0;1;text
+VP1.8T;55;2.1;2.1;2.2;3.1;;;;Ich hab leider kein Kaviar daheim;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kaviar-eier-toast"". Wie klingt das fuer dich?";1;0;1;text
+VP1.8T;56;5;2.1;-1;2.2;;;;ok, suchen wir ein anderes Rezept;NaN;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;1;text
+VP1.8T;57;2.1;5;3.1;-1;;;;Suche mir ein Rezept, das relativ schnell und aufwandfrei zu bereiten ist und viel Gemuese enthaelt;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gemuese-Rahm-Gnocchi"". Wie klingt das fuer dich?";NaN;0;0;1;text
+VP1.8T;58;3.1;2.1;3.4;3.1;1;;;das ist ja wundervoll, schick mir doch bitte das Rezept;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gemuese-Rahm-Gnocchi"". Wie klingt das fuer dich?";1;0;1;text
+VP1.8T;59;4;3.1;-1;3.4;;;;Ehre TeleFood, vielen Dank;NA;Rezept;0;0;1;text
+VP1.1T;60;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.1T;61;2.1;1;2.2;1;0;0;1;Laktosefreie Geburtstagstorte;Gibt es Praeferenzen bei den Zutaten?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP1.1T;62;2.2;2.1;3.1;2.2;;;;Nein;"Wie klingt ""Schoko-Sahne-Torte"" fuer dich?";Gibt es Praeferenzen bei den Zutaten?;0;0;2;text
+VP1.1T;63;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Wie klingt ""Schoko-Sahne-Torte"" fuer dich?";0;0;2;text
+VP1.1T;64;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste / Magst du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;text
+VP1.1T;65;3.3;3.2;2.2;3.3;;;;Nein;Welche Zutaten wuerdest du niemals benuetzen?;Rezeptliste / Magst du die Zutaten?;0;0;2;text
+VP1.1T;66;2.2;3.3;2.2;2.2;;;;Milchprodukte;Was sind deine Lieblingszutaten?;Welche Zutaten wuerdest du niemals benuetzen?;0;0;2;text
+VP1.1T;67;2.2;2.2;3.1;2.2;;;;Schokolade;"Du hast erwaehnt, dass du Schokolade magst, wie klingt ""Himbeer-Schoko-Torte"" fuer dich?";Was sind deine Lieblingszutaten?;0;0;2;text
+VP1.1T;68;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutaten sehen?;"Du hast erwaehnt, dass du Schokolade magst, wie klingt ""Himbeer-Schoko-Torte"" fuer dich?";0;0;2;text
+VP1.1T;69;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste/Magst du die Zutaten?;Moechtest du die Zutaten sehen?;0;0;2;text
+VP1.1T;70;3.3;3.2;3.4;3.3;;;;Ja;Moechtest du das Rezept sehen?;Rezeptliste/Magst du die Zutaten?;0;0;2;text
+VP1.1T;71;3.4;3.3;3.4;3.4;;;;Ja;Rezeptlink;Moechtest du das Rezept sehen?;0;0;2;text
+VP1.2T;72;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.2T;73;2.1;1;2.1;1;0;1;1;Ich brauche ein Laktosefteies kuchenrezept;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP1.2T;74;2.1;2.1;2.1;2.1;;;;Unbegrenzt;Wie ausgefallen darf das Rezept sein?;Wieviel Zeit hast du zum Kochen?;0;0;2;text
+VP1.2T;75;2.1;2.1;2.2;2.1;;;;Nicht besonders;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP1.2T;76;2.2;2.1;3.1;2.2;;;;Obst und Sahne;"Wie klingt ""Laktosefreie Low-Carb-Schoko-Nusstorte"" fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;text
+VP1.2T;77;3.1;2.2;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Wie klingt ""Laktosefreie Low-Carb-Schoko-Nusstorte"" fuer dich?";0;1;2;text
+VP1.2T;78;3.2;3.1;0;3.2;;;;Ja bitte und die Zubereitung;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Moechtest du die Zutatenliste sehen?;0;1;2;text
+VP1.2T;79;5;3.2;3.3;0;;;;Wie bereite ich es zu;Zutatenliste/ Moechtest du mehr Informationen haben?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;2;text
+VP1.2T;80;3.4;5;3.4;3.3;;;;Ja;Link;Zutatenliste/ Moechtest du mehr Informationen haben?;0;0;2;text
+VP1.3T;81;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.3T;82;2.1;1;2.1;1;0;0;1;laktosefreier Kuchen Rezept;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP1.3T;83;2.1;2.1;3.1;2.1;;;;sehr ausgefallen;"Wie klingt ""Gesunder Haferflocken-Schoko-Kuchen"" fuer dich?";Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP1.3T;84;3.1;2.1;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Wie klingt ""Gesunder Haferflocken-Schoko-Kuchen"" fuer dich?";0;0;2;text
+VP1.3T;85;3.2;3.1;3.4;3.2;;;;nein;Link;Moechtest du die Zutatenliste sehen?;0;0;2;text
+VP1.4T;86;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.4T;87;2.1;1;0;1;1;2;0;Ich moechte einenGeburtstagskuchen backen;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Hallo! Was kann ich fuer dich tun?;0;1;2;text
+VP1.4T;88;2.1;2.1;2.1;0;;;;Geburtstagskuchen;Wie ausgefallen darf das Rezept sein?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;2;text
+VP1.4T;89;2.1;2.1;2.2;2.1;;;;Sehr, es soll keine Milchprodukte enthalten;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP1.4T;90;2.2;2.1;3.1;2.2;;;;Schokolade;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Allergiker Schokoladenkuchen"". Wie klingt das Rezept fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;text
+VP1.4T;91;3.1;2.2;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Allergiker Schokoladenkuchen"". Wie klingt das Rezept fuer dich?";0;0;2;text
+VP1.4T;92;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;text
+VP1.4T;93;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;2;text
+VP1.4T;94;3.4;3.3;3.4;3.4;;;;Ja;Link;Moechtest du das Rezept sehen?;0;0;2;text
+VP1.7T;95;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.7T;96;2.1;1;2.1;1;1;2;2;Ich moechte einen Kuchen backen der fuer Leute geeignet ist die eine Laktoseintoleranz haben;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP1.7T;97;2.1;2.1;2.2;2.1;;;;Bitte ohne Milchprodukte;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP1.7T;98;2.2;2.1;3.1;2.2;;;;Schokolade;"Du hast erwaehnt, dass du Schokolade magst, wie klingt ""Schoko-Nuss-Kuchen"" fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;text
+VP1.7T;99;3.1;2.2;0;3.1;0;;;Klingz gut (:;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;"Du hast erwaehnt, dass du Schokolade magst, wie klingt ""Schoko-Nuss-Kuchen"" fuer dich?";0;1;2;text
+VP1.7T;100;3.1;3.1;3.2;0;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;2;text
+VP1.7T;101;3.2;3.1;3.3;3.2;;;;Ja gerne;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;text
+VP1.7T;102;3.3;3.2;3.4;3.3;;;;Klingt gut (:;Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;2;text
+VP1.7T;103;3.4;3.3;3.4;3.4;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;2;text
+VP1.9T;104;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP1.9T;105;2.1;1;2.1;1;0;0;1;Geburtagskuchen laktosefrei;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP1.9T;106;2.1;2.1;2.2;2.1;;;;Sehr ausgefallen;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP1.9T;107;2.2;2.1;3.1;2.2;;;;Obst Zuckerguss;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Laktosefreier Apfel-Kirsch-Mohn-Kuchen"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;text
+VP1.9T;108;3.1;2.2;3.2;3.1;0;;;Gut ja;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Laktosefreier Apfel-Kirsch-Mohn-Kuchen"". Wie klingt das fuer dich?";0;0;2;text
+VP1.9T;109;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;text
+VP1.9T;110;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Rezeptliste/ Wie findest du die Zutaten?;0;0;2;text
+VP1.9T;111;3.4;3.3;3.4;3.4;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;2;text
+VP2.3T;112;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;text
+VP2.3T;113;2.1;1;2.1;1;0;2;2;ich brauche ein Rezept fuer einen Geburtstagskuchen. es soll keine Milchprodukte enthalten. vegan waere auch gut;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;2;text
+VP2.3T;114;2.1;2.1;2.2;2.1;;;;es darf ausgefallen sein. Hauptsache keine milchprodukte. allerdings auch nicht zu schwer;Was sind deine Lieblingszutaten fuer Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;text
+VP2.3T;115;2.2;2.1;3.1;2.2;;;;Erdbeeren und schokolade;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veganer Schoko-Nuss-Kokos-Kuchen"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten fuer Kuchen?;0;0;2;text
+VP2.3T;116;3.1;2.2;3.1;3.1;0;;;gibt es auch einen veganen Erdbeerkuchen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veganer Erdbeerkuchen mit Vanillepudding und Biskuitboden"". Wie klingt das fuer dich?";"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veganer Schoko-Nuss-Kokos-Kuchen"". Wie klingt das fuer dich?";0;0;2;text
+VP2.3T;117;3.1;3.1;-1;3.1;0;;;das klingt besser;NaN;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veganer Erdbeerkuchen mit Vanillepudding und Biskuitboden"". Wie klingt das fuer dich?";0;0;2;text
+VP2.3T;118;5;3.1;-1;-1;;;;wie lange dauert es?;NaN;NaN;0;0;2;text
+VP2.3T;119;5;5;5;-1;;;;und was brauche ich?;Arbeitszeit: ca. 30 Min. / Koch-/Backzeit: ca. 30 Min.;NaN;0;0;2;text
+VP2.3T;120;-1;5;3.3;5;;;;NaN;Zutatenliste;Arbeitszeit: ca. 30 Min. / Koch-/Backzeit: ca. 30 Min.;0;0;2;text
+VP2.3T;121;5;-1;0;3.3;;;;wo kann ich Sojamehl kaufen?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Zutatenliste;0;0;2;text
+VP2.3T;122;5;5;5;0;;;;und wie sind die Arbeitsschritte dafuer?;Arbeitsschritte;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;2;text
+VP2.3T;123;4;5;3.4;5;;;;alles klar;Moechtest du das Rezept sehen?;Arbeitsschritte;0;0;2;text
+VP2.3T;124;3.4;4;3.4;3.4;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;2;text
+VP1.1T;125;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP1.1T;126;2.1;1;2.1;1;0;0;1;Schnelles veganes gericht;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP1.1T;127;2.1;2.1;2.1;2.1;;;;Halbe Stunde;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Wieviel Zeit hast du zum Kochen?;0;0;3;text
+VP1.1T;128;2.1;2.1;2.1;2.1;;;;Gleich;Welche Laenderkuechen sind deine Favoriten?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;3;text
+VP1.1T;129;2.1;2.1;2.1;2.1;;;;Japanisch und Koreanisch;Wie ausgefallen darf das Rezept sein?;Welche Laenderkuechen sind deine Favoriten?;0;0;3;text
+VP1.1T;130;2.1;2.1;2.1;2.1;;;;Egal;Erwartest du Besuch oder kochst du fuer dich allein?;Wie ausgefallen darf das Rezept sein?;0;0;3;text
+VP1.1T;131;2.1;2.1;2.1;2.1;;;;Alleine;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;text
+VP1.1T;132;2.1;2.1;2.2;2.1;;;;Gut;Was sind deine Lieblingszutaten?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;text
+VP1.1T;133;2.2;2.1;3.1;2.2;;;;WeiÌÙkohl;"Mithilfe der Informationen, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Alex veganer Krautsalat auf japanischer Art""";Was sind deine Lieblingszutaten?;0;0;3;text
+VP1.1T;134;3.1;2.2;3.2;3.1;0;;;Ja;Moechtest du die Zutaten sehen?;"Mithilfe der Informationen, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Alex veganer Krautsalat auf japanischer Art""";0;0;3;text
+VP1.1T;135;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste;Moechtest du die Zutaten sehen?;0;0;3;text
+VP1.1T;136;4;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Rezeptliste;0;0;3;text
+VP1.1T;137;3.4;4;3.4;3.4;;;;Ja;Rezeptlink;Moechtest du das Rezept sehen?;0;0;3;text
+VP1.4T;138;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP1.4T;139;2.1;1;2.1;1;0;0;1;Ich suche ein schnelles Rezept;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP1.4T;140;2.1;2.1;2.1;2.1;;;;Nudeln;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;text
+VP1.4T;141;2.1;2.1;2.1;2.1;;;;Recht gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;text
+VP1.4T;142;2.1;2.1;2.1;2.1;;;;Ich esse allein;gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;text
+VP1.4T;143;2.1;2.1;2.1;2.1;;;;Nein;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;3;text
+VP1.4T;144;2.1;2.1;2.2;2.1;;;;Fleischlos, auch am Wochenende;Welches Gemuese magst du?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;3;text
+VP1.4T;145;2.2;2.1;2.2;2.2;;;;Tomaten;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Welches Gemuese magst du?;0;0;3;text
+VP1.4T;146;2.2;2.2;3.1;2.2;;;;Nein;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Spinat, Schafskaese und Tomate"". Wie gefaellt dir das Rezept?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;3;text
+VP1.4T;147;3.1;2.2;3.2;3.1;0;;;gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Spinat, Schafskaese und Tomate"". Wie gefaellt dir das Rezept?";0;0;3;text
+VP1.4T;148;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP1.4T;149;3.3;3.2;2.2;3.3;;;;Es sind zu viele;Das tut mir leid.Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP1.4T;150;2.2;3.3;2.2;2.2;;;;Muskat;Was sind deine Lieblingszutaten?;Das tut mir leid.Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;text
+VP1.4T;151;2.2;2.2;3.1;2.2;;;;Kaese und Tomaten;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln-Tomaten-Mozzarella-Salat"". Wie klingt das Rezept fuer dich?";Was sind deine Lieblingszutaten?;0;0;3;text
+VP1.4T;152;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln-Tomaten-Mozzarella-Salat"". Wie klingt das Rezept fuer dich?";0;0;3;text
+VP1.4T;153;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP1.4T;154;3.3;3.2;3.4;3.3;;;;Sehr gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP1.4T;155;3.4;3.3;3.4;3.4;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;3;text
+VP1.4T;156;5;3.4;2.1;3.4;;;;Es dauert zu lange;Das tut mir leid.Wieviel Zeit hast du zum Kochen?;Rezept;0;0;3;text
+VP1.4T;157;2.1;5;3.1;2.1;;;;20 Minuten;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Mazzes Tomate-Mozzarella-Nudeln"". Wie klingt das Rezept?";Das tut mir leid.Wieviel Zeit hast du zum Kochen?;0;0;3;text
+VP1.4T;158;3.1;2.1;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Mazzes Tomate-Mozzarella-Nudeln"". Wie klingt das Rezept?";0;0;3;text
+VP1.4T;159;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP1.4T;160;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP1.4T;161;3.4;3.3;3.4;3.4;;;;Ja;Link;Moechtest du das Rezept sehen?;0;0;3;text
+VP1.5T;162;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP1.5T;163;2.1;1;-1;1;0;2;1;ich habe wenig Zeit und wuerde gerne eine Kleinigkeit essen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP1.5T;164;2.1;2.1;2.1;-1;;;;Nudeln und Gemuese;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;text
+VP1.5T;165;2.1;2.1;2.1;2.1;;;;mittel;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;text
+VP1.5T;166;2.1;2.1;2.1;2.1;;;;alleine;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;text
+VP1.5T;167;2.1;2.1;2.2;2.1;;;;zu schnellen Rezepten;Welches Gemuese magst du?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;3;text
+VP1.5T;168;2.2;2.1;2.2;2.2;;;;Zucchini und Tomaten;Welche Zutaten wuerdest du niemals benuetzen?;Welches Gemuese magst du?;0;0;3;text
+VP1.5T;169;2.2;2.2;3.1;2.2;;;;Kaese und Wurst;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Zucchini-Tomaten-Feta Nudeln"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;text
+VP1.5T;170;3.1;2.2;3.2;3.1;0;;;gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Zucchini-Tomaten-Feta Nudeln"". Wie klingt das fuer dich?";0;0;3;text
+VP1.5T;171;3.2;3.1;3.3;3.2;;;;gerne;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP1.5T;172;3.3;3.2;3.4;3.3;;;;super. wie lautet das Rezept?;Link;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP1.6T;173;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP1.6T;174;2.1;1;2.1;1;0;1;0;Ich brauche ein schnelles Rezept;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP1.6T;175;2.1;2.1;2.1;2.1;;;;Ich habe Lust auf Nudeln;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;text
+VP1.6T;176;2.1;2.1;2.1;2.1;;;;fortgeschritten;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;text
+VP1.6T;177;2.1;2.1;2.2;2.1;;;;Ich koche nur fuer mich;Was sind deine Lieblingszutaten?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;text
+VP1.6T;178;2.2;2.1;3.1;2.2;;;;Pinienkerne Pesto Tagliatelle sowas;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Spinat, Schafskaese und Tomate"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;3;text
+VP1.6T;179;3.1;2.2;2.2;3.1;0;;;ich habe keinen Spinat da;Das tut mir Leid.Welche Zutaten wuerdest du niemals benuetzen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Spinat, Schafskaese und Tomate"". Wie klingt das fuer dich?";0;0;3;text
+VP1.6T;180;2.2;3.1;3.1;2.2;;;;tofu und Meeresfruechte;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Fischkaese-Pesto-SoÌÙe"". Wie klingt das fuer dich?";Das tut mir Leid.Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;text
+VP1.6T;181;3.1;2.2;3.2;3.1;1;;;sehr gut danke;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Fischkaese-Pesto-SoÌÙe"". Wie klingt das fuer dich?";0;0;3;text
+VP1.6T;182;3.2;3.1;3.4;3.2;;;;ja und die Zubereitung;Rezept;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP2.1T;183;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP2.1T;184;2.1;1;2.1;1;0;1;0;Ich suche ein Pestorezept ohbe Knoblauch. Ohne;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;1;3;text
+VP2.1T;186;2.1;2.1;2.1;2.1;;;;Maximal 10 Minuten;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Wieviel Zeit hast du zum Kochen?;0;0;3;text
+VP2.1T;187;2.1;2.1;2.1;2.1;;;;Keine;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;3;text
+VP2.1T;188;2.1;2.1;3.1;2.1;;;;Vegan;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gruenes Pesto ohne Knoblauch"". Wie klingt das fuer dich?";Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;3;text
+VP2.1T;189;3.1;2.1;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gruenes Pesto ohne Knoblauch"". Wie klingt das fuer dich?";0;0;3;text
+VP2.1T;190;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP2.1T;191;3.3;3.2;2.2;3.3;;;;Darf kein Parmesan rein;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP2.1T;192;2.2;3.3;3.1;2.2;;;;Nicht vegane, also bei Pesto zum beispiel Parmesan, Pecorino oder Ricotta;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rotes Pesto ohne Kaese"". Wie klingt das fuer dich?";Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;text
+VP2.1T;193;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rotes Pesto ohne Kaese"". Wie klingt das fuer dich?";0;0;3;text
+VP2.1T;194;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP2.1T;195;3.3;3.2;3.1;3.3;;;;Ohne Knoblauch;"Du hast erwaehnt, dass du keinen Knoblauch magst, wie klingt ""Winter-Pesto"" fuer dich?";Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP2.1T;196;3.1;3.3;3.2;3.1;0;;;Interessant;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du keinen Knoblauch magst, wie klingt ""Winter-Pesto"" fuer dich?";0;0;3;text
+VP2.1T;197;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP2.1T;198;3.3;3.2;3.4;3.3;;;;Ohne Knoblauch. Den lasse kch einfach weg. Den lasse ich einfach weg. Sonst passt alles;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP2.1T;199;3.4;3.3;3.4;3.4;;;;Und ja;Rezept;Moechtest du das Rezept sehen?;0;0;3;text
+VP2.2T;200;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP2.2T;201;2.1;1;2.1;1;0;2;1;ich habe nur 1 Stunde, bevor ich rausgehe ich moechte trotzdem etwas essen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP2.2T;202;2.1;2.1;2.2;2.1;;;;hast du Idee? ich habe Magenschmerzen. ich brauche etwas gut fuer meinen Magen;Was sind deine Lieblingszutaten?;Auf was hast du Lust?;0;0;3;text
+VP2.2T;203;2.2;2.1;3.1;2.2;;;;Rindfleisch, avocado, zucchini, Brokkoli, sueÌÙmais, eisbergsalat;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veggie Pasta"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;3;text
+VP2.2T;204;3.1;2.2;3.3;3.1;0;;;kann ich Zutatenliste anschauen?;Zutatenliste / Wie gefallen dir die Zutaten?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Veggie Pasta"". Wie klingt das fuer dich?";0;0;3;text
+VP2.2T;205;3.3;3.1;3.4;3.3;;;;ja das klingt gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP2.2T;206;3.4;3.3;3.4;3.4;;;;ja bitte;Rezept;Moechtest du das Rezept sehen?;0;0;3;text
+VP2.2T;207;3.4;3.4;3.1;3.4;;;;hmmm sieht es nicht so schmeckt aus. hast du anderen Rezept mit Fleisch?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bunte Gemuesepfanne mit Hackfleisch"". Wie klingt das fuer dich?";Rezept;0;0;3;text
+VP2.2T;208;3.1;3.4;3.3;3.1;1;;;ja dann bitte zeig mir Zutatenliste!;Zutatenliste / Wie gefallen dir die Zutaten?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bunte Gemuesepfanne mit Hackfleisch"". Wie klingt das fuer dich?";0;0;3;text
+VP2.2T;209;3.3;3.1;3.4;3.3;;;;obwohl ich Zwiebel und Pfeffer nicht mag, kann ich sie nicht rein machen. das klingt auch gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;text
+VP2.2T;210;3.4;3.3;3.4;3.4;;;;ja bitte;Rezept;Moechtest du das Rezept sehen?;0;0;3;text
+VP2.2T;211;4;3.4;-1;3.4;;;;wow sieht so gut;NaN;Rezept;0;0;3;text
+VP2.2T;212;4;4;-1;-1;;;;ich habe jetzt voll Hunger;NaN;NaN;0;0;3;text
+VP2.2T;213;4;4;-1;-1;;;;danke fuer deine Hilfe;NaN;NaN;0;0;3;text
+VP2.3T;214;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;text
+VP2.3T;215;2.1;1;2.1;1;0;2;1;ich moechte gerne schnell was essen, etwas leichtes;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;text
+VP2.3T;216;2.1;2.1;2.1;2.1;;;;einen salat, es muss aber schnell gehen;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;text
+VP2.3T;217;2.1;2.1;2.2;2.1;;;;ich kann relativ gut kochen;Was sind deine Lieblingszutaten?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;text
+VP2.3T;218;2.2;2.1;3.1;2.2;;;;Gurken und huehnchen. ich brauche ein Rezept dass schnell ist;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Huehnchen-Rucola-Gurken-Trauben Salat"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;3;text
+VP2.3T;219;3.1;2.2;-1;3.1;0;;;klingt super;NaN;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Huehnchen-Rucola-Gurken-Trauben Salat"". Wie klingt das fuer dich?";0;0;3;text
+VP2.3T;220;5;3.1;5;-1;;;;wie lange dauert es?;ca. 15 Min.;NaN;0;0;3;text
+VP2.3T;221;4;5;3.2;5;;;;alles klar;Moechtest du die Zutatenliste sehen?;ca. 15 Min.;0;0;3;text
+VP2.3T;222;3.2;4;3.3;3.2;;;;gerne;Zutatenliste;Moechtest du die Zutatenliste sehen?;0;0;3;text
+VP2.3T;223;4;3.2;3.3;3.3;;;;super danke;Wie findest du die Zutaten?;Zutatenliste;0;0;3;text
+VP1.2T;224;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;text
+VP1.2T;225;2.1;1;2.1;1;0;1;1;Ich suche einen leichten Snack;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;4;text
+VP1.2T;226;2.1;2.1;2.1;2.1;;;;Weniger als eine Stunde;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;4;text
+VP1.2T;227;2.1;2.1;2.1;2.1;;;;Einen Salat;Erwartest du Besuch oder kochst du fuer dich allein?;Auf was hast du Lust?;0;0;4;text
+VP1.2T;228;2.1;2.1;2.1;2.1;;;;Fuer mich allein;Hast du Allergien oder bist Veganerin, VegetarierIn?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;text
+VP1.2T;229;2.1;2.1;2.2;2.1;;;;Ich bin Vegetarier;Welches Gemuese magst du?;Hast du Allergien oder bist Veganerin, VegetarierIn?;0;0;4;text
+VP1.2T;230;2.2;2.1;3.1;2.2;;;;Avocado's, paprika, Kartoffeln, gurken;"Du hast erwaehnt, dass du Avocado's, Paprika und Kartoffeln magst, wie klingt ""SueÌÙkartoffel-Avocado Pueree in Paprika-Gemueseblume"" fuer dich?";Welches Gemuese magst du?;0;0;4;text
+VP1.2T;231;3.1;2.2;3.2;3.1;0;;;Das will ich kochen;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du Avocado's, Paprika und Kartoffeln magst, wie klingt ""SueÌÙkartoffel-Avocado Pueree in Paprika-Gemueseblume"" fuer dich?";0;0;4;text
+VP1.2T;232;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP1.2T;233;3.3;3.2;3.4;3.3;;;;Wie bereite ich es zu Sehr gut;Zubereitung/ Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;4;text
+VP1.2T;234;3.4;3.3;3.4;3.4;;;;Ja bitte;Link;Zubereitung/ Moechtest du das Rezept sehen?;0;0;4;text
+VP1.5T;235;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;text
+VP1.5T;236;2.1;1;2.1;1;1;2;1;ich haette gerne ein bekoemmliches und schnelles Gericht;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;text
+VP1.5T;237;2.1;2.1;2.1;2.1;;;;etwas das schnell geht und bekoemmlich also ohne Fleisch und ohne viele Kohlenhydrate ist;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Auf was hast du Lust?;0;0;4;text
+VP1.5T;238;2.1;2.1;2.1;2.1;;;;nein;Wie stehst du zu regionaler Kueche?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;4;text
+VP1.5T;239;2.1;2.1;2.2;2.1;;;;mag ich;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Wie stehst du zu regionaler Kueche?;0;0;4;text
+VP1.5T;240;2.2;2.1;2.2;2.2;;;;wenig Kohlenhydrate;Was sind deine Lieblingszutaten?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;4;text
+VP1.5T;241;2.2;2.2;3.1;2.2;;;;Gemuese und Joghurt;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Mediterranes gebackenes Gemuese mit Joghurt-Tomatensauce"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;4;text
+VP1.5T;242;3.1;2.2;3.2;3.1;0;;;perfekt;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Mediterranes gebackenes Gemuese mit Joghurt-Tomatensauce"". Wie klingt das fuer dich?";0;0;4;text
+VP1.5T;243;3.2;3.1;3.4;3.2;;;;ja und das Rezept;Rezept;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP1.6T;244;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;text
+VP1.6T;245;2.1;1;2.2;1;1;1;2;Ich braeuchte einen Smoothie mit viel Vitamin;Was sind deine Lieblingszutaten?;Hallo! Was kann ich fuer dich tun?;0;0;4;text
+VP1.6T;246;2.2;2.1;3.1;2.2;;;;Eigentlich alle Fruechte nur nicht zu Sauer vor dem joggen;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gruener Smoothie"" . Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;4;text
+VP1.6T;247;3.1;2.2;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gruener Smoothie"" . Wie klingt das fuer dich?";0;0;4;text
+VP1.6T;248;3.2;3.1;3.3;3.2;;;;ja bitte;Rezept/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP1.6T;249;5;3.2;0;3.3;;;;es handelt sich nicht nur im Obst,, sonst gut ich lass den Spinat einfach weg;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Rezept/ Wie findest du die Zutaten?;0;0;4;text
+VP1.6T;250;2.2;5;3.1;0;;;;nur Obst in den Zutaten bitte;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Obst-Smoothie zum Fruehstueck"". Wie klingt das fuer dich?";Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;4;text
+VP1.6T;251;3.1;2.2;3.2;3.1;0;;;klingt perfekt;Moechtest du die Zutaten sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Obst-Smoothie zum Fruehstueck"". Wie klingt das fuer dich?";0;0;4;text
+VP1.6T;252;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste/ Wie findest du die Zutaten?;Moechtest du die Zutaten sehen?;0;0;4;text
+VP1.6T;253;3.3;3.2;3.4;3.3;;;;perfekt danke TeleFood;Moechtest du das Rezept sehen?;Zutatenliste/ Wie findest du die Zutaten?;0;0;4;text
+VP1.6T;254;3.4;3.3;3.4;3.4;;;;nein die Zutaten reichen mir;NAN;Moechtest du das Rezept sehen?;0;0;4;text
+VP1.7T;255;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;text
+VP1.7T;256;2.1;1;2.1;1;0;1;1;Ich such ein Rezept das schnell und einfach geht.;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;text
+VP1.7T;257;2.1;2.1;2.1;2.1;;;;Auf Haehnchen;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;4;text
+VP1.7T;258;2.1;2.1;2.1;2.1;;;;Mittel;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;4;text
+VP1.7T;259;2.1;2.1;2.1;2.1;;;;Alleine (:;Wieviel Zeit hast du zum Kochen?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;text
+VP1.7T;260;2.1;2.1;2.2;2.1;;;;20min;Was sind deine Lieblingszutaten?;Wieviel Zeit hast du zum Kochen?;0;0;4;text
+VP1.7T;261;2.2;2.1;2.2;2.2;;;;Tomaten,Mozarella;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Was sind deine Lieblingszutaten?;0;0;4;text
+VP1.7T;262;2.2;2.2;3.1;2.2;;;;Reis;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Reis-Haenchen-Auflauf"". Wie klingt das fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;4;text
+VP1.7T;263;5;2.2;5;3.1;;;;Geht das schnell ?;Das Rezept braucht 25min.;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Reis-Haenchen-Auflauf"". Wie klingt das fuer dich?";0;0;4;text
+VP1.7T;264;3.1;5;3.2;5;0;;;Oke das geht gerade noch so.;Moechtest du die Zutatenliste sehen?;Das Rezept braucht 25min.;0;0;4;text
+VP1.7T;265;3.2;3.1;3.3;3.2;;;;Gerne;Zutatenliste/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP1.7T;266;3.3;3.2;2.2;3.3;;;;Ein bisschen kompliziert ! Ich habe nicht alle Zutaten Zuhause;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste/ Wie findest du die Zutaten?;0;0;4;text
+VP1.7T;267;2.2;3.3;3.1;2.2;;;;Chillipulver,Paprikapulver;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen-Reis Pfanne"". Wie klingt das fuer dich?";Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;text
+VP1.7T;268;3.1;2.2;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen-Reis Pfanne"". Wie klingt das fuer dich?";0;0;4;text
+VP1.7T;269;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP1.7T;270;3.3;3.2;3.4;3.3;;;;Gut (: Auser das Paprikapulver das lass ich dann einfach weg;Moechtest du das Rezept sehen?;Zutatenliste/ Wie findest du die Zutaten?;0;0;4;text
+VP1.7T;271;3.4;3.3;3.4;3.4;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;4;text
+VP2.2T;272;1;-1;1;3.4;;;;hey telefood;Hallo! Was kann ich fuer dich tun?;Rezept;0;0;4;text
+VP2.2T;273;2.1;1;2.1;1;1;1;1;ich moechte ein Rezept, damit ich sehr schnell essen kann;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;text
+VP2.2T;274;2.1;2.1;2.1;2.1;;;;brot vielleicht;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;4;text
+VP2.2T;275;2.1;2.1;2.2;2.1;;;;gesund und gut fuer Magen`;Was sind deine Lieblingszutaten?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;4;text
+VP2.2T;276;2.2;2.1;3.1;2.2;;;;Avocado, Butter, Tomaten, Schinken, Leberwurst;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Deluxe Fruehstueck mit Avocado"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;4;text
+VP2.2T;277;3.1;2.2;3.2;3.1;0;;;was ist das? ich habe noch nie gehoert;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Deluxe Fruehstueck mit Avocado"". Wie klingt das fuer dich?";0;0;4;text
+VP2.2T;278;3.2;3.1;3.3;3.2;;;;ja gerne;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;text
+VP2.2T;279;3.3;3.2;2.2;3.3;;;;ich hasse Pfeffer;Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste/Wie findest du die Zutaten?;0;0;4;text
+VP2.2T;280;2.2;3.3;3.1;2.2;;;;und Frischkaese schmeckt mir nicht, Zwiebel, Pfeffer, Paprika, ich mag Gurke;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schinken-Gurken-Brot"". Wie klingt das fuer dich?";Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;text
+VP2.2T;281;3.1;2.2;3.3;3.1;0;;;kann ich Zutatenliste sehen?;Zutatenliste/Wie findest du die Zutaten?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schinken-Gurken-Brot"". Wie klingt das fuer dich?";0;0;4;text
+VP2.2T;282;3.3;3.1;3.4;3.3;;;;ja das klingt gut;Moechtest du das Rezept sehen?;Zutatenliste/Wie findest du die Zutaten?;0;0;4;text
+VP2.2T;283;3.4;3.3;3.4;3.4;;;;ja bitte;Rezept;Moechtest du das Rezept sehen?;0;0;4;text
+VP2.2T;284;4;3.4;-1;3.4;;;;ok passt alles;NaN;Rezept;0;0;4;text
+VP2.2T;285;4;4;-1;-1;;;;Dankeschoen;NaN;NaN;0;0;4;text
+VP2.3T;286;1;-1;1;-1;;;;hey telefood;Hallo! Was kann ich fuer dich tun?;;0;0;4;text
+VP2.3T;287;2.1;1;0;1;1;2;1;ich moechte in ejner Stunde joggen gehen und davor was essen. was schlaegst du vor;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Hallo! Was kann ich fuer dich tun?;0;1;4;text
+VP2.3T;288;2.1;2.1;2.1;0;;;;ich moechte in einer Stunde joggen gehen und moechte davor was essen. was schlaegst du vor;Auf was hast du Lust?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;4;text
+VP2.3T;289;2.1;2.1;2.1;2.1;;;;etwas leichtes;Erwartest du Besuch oder kochst du fuer dich allein?;Auf was hast du Lust?;0;0;4;text
+VP2.3T;290;2.1;2.1;2.1;2.1;;;;was mir viel Energie gibt, ich mache spaeter sport;Wie ausgefallen darf das Rezept sein?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;text
+VP2.3T;292;2.1;2.1;2.2;2.1;;;;es soll schnell gehen;Was sind deine Lieblingszutaten?;Wie ausgefallen darf das Rezept sein?;0;0;4;text
+VP2.3T;293;2.2;2.1;2.2;2.2;;;;Gemuese und Fleisch.;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;4;text
+VP2.3T;294;2.2;2.2;3.1;2.2;;;;am liebsten Salat und Zucchini, was soll ich vor dem Sport essen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Quinoasalat mit Avocado und Banane"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;4;text
+VP2.3T;296;5;2.2;5;3.1;;;;wie viele Kalorien hat es und wie lange dauert die Zubereitung?;"Kalorien p. P.: keine Angabe; Arbeitszeit: ca. 10 Min.";"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Quinoasalat mit Avocado und Banane"". Wie klingt das fuer dich?";0;0;4;text
+VP2.3T;299;3.1;5;3.3;5;0;;;ich brauche die zutatenliste;Zutatenliste/Wie findest du die Zutaten?;"Kalorien p. P.: keine Angabe; Arbeitszeit: ca. 10 Min.";0;0;4;text
+VP2.3T;300;3.2;3.1;-1;3.3;;;;ok danke, klingt sehr gut;NaN;Zutatenliste/Wie findest du die Zutaten?;0;0;4;text
+VP2.3T;302;5;3.2;5;-1;;;;wie viele Kalorien hat Quinoa und was sind die naehrstoffw;Kalorien p. P.: keine Angabe;NaN;0;0;4;text
+VP2.3T;305;5;5;5;5;;;;egal, was ist quinoa;Definition Quinoa;Kalorien p. P.: keine Angabe;0;0;4;text
+VP2.3T;307;4;5;-1;5;;;;alles klar danke;NaN;Definition Quinoa;0;0;4;text
+VP1.4T;308;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP1.4T;309;2.1;1;2.1;1;0;1;1;Ich suche ein einfaches und schnelles Rezept mit wenig Zutaten;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP1.4T;310;2.1;2.1;2.1;2.1;;;;Salat;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;text
+VP1.4T;311;2.1;2.1;2.1;2.1;;;;Gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;text
+VP1.4T;312;2.1;2.1;2.2;2.1;;;;Ich esse allein;Was sind deine Lieblingszutaten?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;5;text
+VP1.4T;313;2.2;2.1;3.1;2.2;;;;Tomaten und Avocado;"Du hast erwaehnt, dass du Tomaten, Avocado magst, wie klingt ""Rucola-Avocado-Tomaten-Salat mit Kuerbiskernen"" fuer dich?";Was sind deine Lieblingszutaten?;0;0;5;text
+VP1.4T;314;3.1;2.2;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du Tomaten, Avocado magst, wie klingt ""Rucola-Avocado-Tomaten-Salat mit Kuerbiskernen"" fuer dich?";0;0;5;text
+VP1.4T;315;3.2;3.1;3.2;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP1.4T;316;3.2;3.2;3.3;3.2;;;;Gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;5;text
+VP1.4T;317;3.3;3.2;3.4;3.3;;;;Ja;Link;Moechtest du das Rezept sehen?;0;0;5;text
+VP1.5T;318;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP1.5T;319;2.1;1;2.1;1;0;0;1;schnelles leckeres Rezept nicht zu viel;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP1.5T;321;2.1;2.1;2.1;2.1;;;;keine Nudeln;Wie ausgefallen darf das Rezept sein?;Auf was hast du Lust?;0;0;5;text
+VP1.5T;322;2.1;2.1;2.1;2.1;;;;sehr ausgefallen, aber nicht aufwendig;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Wie ausgefallen darf das Rezept sein?;0;0;5;text
+VP1.5T;323;2.1;2.1;2.2;2.1;;;;unter der Woche viel von Nudeln, am Wochenende abwechslungsreich;Was sind deine Lieblingszutaten?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;5;text
+VP1.5T;325;2.2;2.1;3.1;2.2;;;;Mais Milch Tomaten;"Du hast erwaehnt, dass du Mais, Tomaten,Milch magst, wie klingt ""Tomaten-Mais-Suppe"" fuer dich?";Was sind deine Lieblingszutaten?;0;0;5;text
+VP1.5T;326;3.1;2.2;3.2;3.1;0;;;gut;Moechtest du das Rezept sehen?;"Du hast erwaehnt, dass du Mais, Tomaten,Milch magst, wie klingt ""Tomaten-Mais-Suppe"" fuer dich?";0;0;5;text
+VP1.5T;327;3.2;3.1;3.4;3.2;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;5;text
+VP1.7T;328;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP1.7T;329;2.1;1;2.1;1;0;2;0;Es ist schon spaeter aber ich moechte noch eine Kleinigkeit essen;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP1.7T;330;2.1;2.1;2.1;2.1;;;;10min;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;5;text
+VP1.7T;331;2.1;2.1;2.2;2.1;;;;Auf was warmes;Was sind deine Lieblingszutaten?;Auf was hast du Lust?;0;0;5;text
+VP1.7T;332;2.2;2.1;2.2;2.2;;;;Gemuese;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;5;text
+VP1.7T;333;2.2;2.2;3.1;2.2;;;;Paprika,tomaten,Zucchini;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Zucchini-Paprika-Moehren-Frittata mit Huettenkaese und Tomaten"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;5;text
+VP1.7T;334;5;2.2;0;3.1;;;;Was ist fitatata?;NaN;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Zucchini-Paprika-Moehren-Frittata mit Huettenkaese und Tomaten"". Wie klingt das fuer dich?";0;1;5;text
+VP1.7T;335;5;5;0;0;;;;Frittata;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;NaN;0;1;5;text
+VP1.7T;336;5;5;5;0;;;;Was ist denn Fritatta?;Die Frittata ist ein italienisches Omelett. Sie wird kalt oder warm als Vorspeise oder Hauptgericht serviert oder in kleineren Stuecken zum Aperitif gereicht.;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;5;text
+VP1.7T;337;3.1;5;0;5;0;;;Das klingz gut;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Die Frittata ist ein italienisches Omelett. Sie wird kalt oder warm als Vorspeise oder Hauptgericht serviert oder in kleineren Stuecken zum Aperitif gereicht.;0;1;5;text
+VP1.7T;338;3.1;3.1;3.2;0;0;;;Das klingt gut;Moechtest du das Rezept sehen?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;5;text
+VP1.7T;339;3.4;3.1;3.4;3.2;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;5;text
+VP1.8T;340;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP1.8T;341;2.1;1;2.1;1;0;1;2;Suche ein Kohlenhydratreiches, leichtes Abendessen fuer mich raus;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP1.8T;342;2.1;2.1;2.1;2.1;;;;10-20 Minuten;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;5;text
+VP1.8T;343;2.2;2.1;2.2;2.1;;;;Haehnchen und Reis/Nudeln;Welches Gemuese magst du?;Auf was hast du Lust?;0;0;5;text
+VP1.8T;344;2.2;2.2;3.1;2.2;;;;Brokkoli und Paprika;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen mit Brokkoli und Karotten in KaesesahnesoÌÙe mit Reis"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;5;text
+VP1.8T;345;3.1;2.2;2.2;3.1;0;;;Das klingt schon Mal nicht schlecht, findest du auch ein Gericht mit anderer SoÌÙe?;Welche Zutaten wuerdest du niemals benuetzen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen mit Brokkoli und Karotten in KaesesahnesoÌÙe mit Reis"". Wie klingt das fuer dich?";0;0;5;text
+VP1.8T;346;2.2;3.1;3.1;2.2;;;;Fuer die leichte Mahlzeit eher keine Sahne;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gebratener Reis mit Huehnchen"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;5;text
+VP1.8T;347;3.1;2.2;3.3;3.1;0;;;Was fuer ein Gemuese ist denn dabei? ;Zutatenliste;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gebratener Reis mit Huehnchen"". Wie klingt das fuer dich?";0;0;5;text
+VP1.8T;348;3.3;3.1;3.4;3.3;;;; Ich habe doch nur Paprika, Karotten und Erbsen da. Ok, ich werde einfach bisschen variieren, Gib mir doch bitte das Rezept;Rezept;Zutatenliste;0;0;5;text
+VP1.8T;350;4;3.3;-1;3.4;;;;Vielen Dank Telefood!;NaN;Rezept;0;0;5;text
+VP1.9T;351;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP1.9T;352;2.1;1;2.1;1;0;0;0;Essen schnell einfach;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP1.9T;353;2.1;2.1;2.1;2.1;;;;Pizza oder nudeln;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;text
+VP1.9T;354;2.1;2.1;2.1;2.1;;;;Einfach;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;text
+VP1.9T;355;2.1;2.1;2.2;2.1;;;;Allein;Was sind deine Lieblingszutaten?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;5;text
+VP1.9T;356;2.2;2.1;2.2;2.2;;;;Kaese gemuese;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;5;text
+VP1.9T;357;2.2;2.2;3.1;2.2;;;;Spinat erbsen gruene bohnen pepperoni;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Vegane Spinat-Pizza mit Roestzwiebeln"".
+
+
+
+ 
+
+
+
+Wie findest du das Rezept?";Welches Gemuese magst du?;0;0;5;text
+VP1.9T;358;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Vegane Spinat-Pizza mit Roestzwiebeln"".
+
+
+
+ 
+
+
+
+Wie findest du das Rezept?";0;0;5;text
+VP1.9T;359;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP1.9T;360;2.2;3.2;3.1;3.3;;;;Alternative hefeteig pizza;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza alla Mama mit Sucuk und Spinat"". Wie klingt das fuer dich?";Rezeptliste / Wie findest du die Zutaten?;0;0;5;text
+VP1.9T;361;3.1;2.2;3.2;3.1;0;;;Ok;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza alla Mama mit Sucuk und Spinat"". Wie klingt das fuer dich?";0;0;5;text
+VP1.9T;362;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP1.9T;363;3.3;3.2;3.4;3.3;;;;Ok;Moechtest du das Rezept sehen?;Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP1.9T;364;5;3.3;0;3.4;;;;Zeige erstes Rezept vegan pizza Roestzwiebeln;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Moechtest du das Rezept sehen?;0;0;5;text
+VP1.9T;365;4;5;2.2;0;;;;Nein;Was fuer Zutaten hast du gemeint?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;5;text
+VP1.9T;366;2.2;4;3.1;2.2;;;;Spinat TomatensoÌÙe zwiebeln;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza Alara"". Wie klingt das fuer dich?";Was fuer Zutaten hast du gemeint?;0;0;5;text
+VP1.9T;367;3.1;2.2;3.2;3.1;0;;;Ok;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza Alara"". Wie klingt das fuer dich?";0;0;5;text
+VP1.9T;368;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP1.9T;369;3.3;3.2;2.2;3.3;;;;Kein Haehnchenbrustfilet;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP1.9T;370;2.2;3.3;3.1;2.2;;;;Kein fleisch;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza Knoblauch Champignon Paprika-vegan"". Wie klingt das fuer dich?";Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;5;text
+VP1.9T;371;3.1;2.2;3.2;3.1;0;;;Jo, Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Pizza Knoblauch Champignon Paprika-vegan"". Wie klingt das fuer dich?";0;0;5;text
+VP1.9T;373;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP1.9T;374;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP1.9T;375;3.4;3.3;3.4;3.4;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;5;text
+VP2.1T;376;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP2.1T;377;2.1;1;2.1;1;0;1;1;Ich suche ein schnelles Rezept;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP2.1T;378;2.1;2.1;2.1;2.1;;;;Maximal 10 Minuten;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;5;text
+VP2.1T;379;2.1;2.1;2.1;2.1;;;;Etwas warmes und nahrhaftes. Vegan;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;text
+VP2.1T;380;2.1;2.1;2.2;2.1;;;;Gut;Was sind deine Lieblingszutaten?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;text
+VP2.1T;381;2.2;2.1;2.2;2.2;;;;Alles mit viel Kohlenhydraten, also Nudeln oder Reis;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;5;text
+VP2.1T;382;2.2;2.2;2.2;2.2;;;;Jedes;Welche Zutaten wuerdest du niemals benuetzen?;Welches Gemuese magst du?;0;0;5;text
+VP2.1T;383;2.2;2.2;3.1;2.2;;;;Alles nicht vegane;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit veganer Tomatensauce"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;5;text
+VP2.1T;384;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit veganer Tomatensauce"". Wie klingt das fuer dich?";0;0;5;text
+VP2.1T;385;3.2;3.1;3.3;3.2;;;;Gern;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;text
+VP2.1T;386;3.3;3.2;3.4;3.3;;;;Abgesehen von Kresse klingst das gut;Moechtest du das Rezept sehen?;Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP2.1T;387;3.4;3.3;3.4;3.4;;;;Gerne;Rezept;Moechtest du das Rezept sehen?;0;0;5;text
+VP2.2T;388;1;-1;1;-1;;;;hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;text
+VP2.2T;389;2.1;1;2.1;1;0;2;1;ich gehe zu spaet nach Hause, aber ich moechte nicht mit meinem leeren Magen schlafen. was sollte ich essen?;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;text
+VP2.2T;391;2.1;2.1;2.1;2.1;;;;etwas gesund und schnell zu kochen;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;text
+VP2.2T;392;2.1;2.1;2.2;2.1;;;;ich habe noch keine Idee, kann du mir vorschlagen?;Was sind deine Lieblingszutaten?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;text
+VP2.2T;395;2.2;2.1;2.2;2.2;;;;ich liebe Huehnerfleisch;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Was sind deine Lieblingszutaten?;0;0;5;text
+VP2.2T;396;2.2;2.2;3.1;2.2;;;;reis;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen Teriyaki auf Reis"". Wie klingt das fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;5;text
+VP2.2T;397;3.1;2.2;3.3;3.1;0;;;ja das klingt gut, kannst du mir Zutatenliste zeigen?;Zutatenliste/Wie findest du die Zutaten?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Haehnchen Teriyaki auf Reis"". Wie klingt das fuer dich?";0;0;5;text
+VP2.2T;399;2.2;3.1;3.1;3.3;;;;Hmmm Zwiebeln und Pfeffer gefallen mir gar nicht, kannst ich Zucchini statt Zwiebel wechseln?;"Das tut mir Leid. Wie klingt ""Gebratener Reis mit Huehnchen"" fuer dich?";Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP2.2T;401;3.1;2.2;3.2;3.1;1;;;bitte zeig mir Zutatenliste!;Zutatenliste/Wie findest du die Zutaten?;"Das tut mir Leid. Wie klingt ""Gebratener Reis mit Huehnchen"" fuer dich?";0;0;5;text
+VP2.2T;402;3.2;3.1;3.4;3.2;;;;ja das klingt echt gut;Rezept;Zutatenliste/Wie findest du die Zutaten?;0;0;5;text
+VP2.2T;404;4;3.2;-1;3.4;;;;sehr schoen;NaN;Rezept;0;0;5;text
+VP2.2T;405;4;4;-1;-1;;;;vielen dank;NaN;NaN;0;0;5;text
+VP1.3T;406;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;text
+VP1.3T;407;2.1;1;2.2;1;0;0;1;schnelles Gericht Rezept;Was sind deine Lieblingszutaten?;Hallo! Was kann ich fuer dich tun?;0;0;6;text
+VP1.3T;408;2.2;2.1;0;2.2;;;;Schockolade;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Was sind deine Lieblingszutaten?;0;1;6;text
+VP1.3T;409;2.2;2.2;2.2;0;;;;Schokolade;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;6;text
+VP1.3T;410;2.2;2.2;2.1;2.2;;;;Nudeln;Wie stehst du zu regionaler Kueche?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;6;text
+VP1.3T;411;2.1;2.2;2.2;2.1;;;;mag ich;Welches Gemuese magst du?;Wie stehst du zu regionaler Kueche?;0;0;6;text
+VP1.3T;412;2.2;2.1;3.1;2.2;;;;Kartoffeln;"Mit den Zutaten die du mir genannt hast habe ich folgendes Rezept gefunden ""Leichte SoÌÙe fuer Auflaeufe und Gratins, aber auch geeignet fuer Nudeln, Kartoffeln, Reis und Co."": Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;6;text
+VP1.3T;413;3.1;2.2;3.2;3.1;0;;;sehr gut;Moechtest du die Zutatenliste sehen?;"Mit den Zutaten die du mir genannt hast habe ich folgendes Rezept gefunden ""Leichte SoÌÙe fuer Auflaeufe und Gratins, aber auch geeignet fuer Nudeln, Kartoffeln, Reis und Co."": Wie klingt das fuer dich?";0;0;6;text
+VP1.3T;414;3.2;3.1;3.4;3.2;;;;nein;Link;Moechtest du die Zutatenliste sehen?;0;0;6;text
+VP1.8T;415;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;text
+VP1.8T;416;2.1;1;3.1;1;1;2;2;Suche mir doch bitte zwei Rezepte raus. Das erste soll vegan sein, ich habe unter anderem Auberginen, Nudeln, Paprika und Salat da Das zweite soll Fleisch ebthalten. Ich habe Schweine- und Huehnerschnitzel da und oben genanntes. Das zweite soll Fleisch ebthalten. Ich habe Schweine- und Huehnerschnitzel da und oben genanntes;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Spaghetti mit Paprika-Auberginengemuese und Mozzarella"". Wie klingt das fuer dich?";Hallo! Was kann ich fuer dich tun?;0;0;6;text
+VP1.8T;419;3.1;2.1;0;3.1;0;;;das klingt nicht schlecht, es kann auch was aufwendigeren sein, ich habe ca. 3,5 Stunden zeit, bitte such noch das zweite Rezept raus;NaN;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Spaghetti mit Paprika-Auberginengemuese und Mozzarella"". Wie klingt das fuer dich?";0;0;6;text
+VP1.8T;421;2.2;3.1;0;0;;;;Das zweite soll Fleisch ebthalten. Ich habe Schweine- und Huehnerschnitzel da und oben genanntes;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;NaN;0;0;6;text
+VP1.8T;422;2.1;2.2;3.1;0;;;;es kann aufweniger sein, ich habe 3,5 Stunden Zeit;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schweineschnitzel mit Aubergine und Mozzarella"". Wie klingt das fuer dich?";Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;0;6;text
+VP1.8T;423;3.1;2.1;3.4;3.1;1;;;Gut! Schicke mir doch bitte die jeweiligen Rezepte;Rezept1;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schweineschnitzel mit Aubergine und Mozzarella"". Wie klingt das fuer dich?";0;0;6;text
+VP1.8T;425;4;3.1;-1;3.4;;;;Danke TeleFood!;NaN;Rezept1;0;0;6;text
+VP1.9T;426;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;text
+VP1.9T;427;2.1;1;2.1;1;0;0;1;Essen einfach kalt;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;6;text
+VP1.9T;428;2.1;2.1;0;2.1;;;;0;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Wieviel Zeit hast du zum Kochen?;1;0;6;text
+VP1.9T;429;2.1;2.1;2.1;0;;;;1 minute;Wie stehst du zu regionaler Kueche?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;1;0;6;text
+VP1.9T;430;2.1;2.1;2.2;2.1;;;;Gut;Welches Gemuese magst du?;Wie stehst du zu regionaler Kueche?;0;0;6;text
+VP1.9T;431;2.2;2.1;3.1;2.2;;;;Salat essiggurken zwiebeln spargel;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gemischter gruener Salat mit angebratenem gruenen Spargel"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;6;text
+VP1.9T;432;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gemischter gruener Salat mit angebratenem gruenen Spargel"". Wie klingt das fuer dich?";0;0;6;text
+VP1.9T;434;3.2;3.1;3.3;3.2;;;;Ja;Rezeptliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;6;text
+VP1.9T;435;3.3;3.2;3.3;3.3;;;;Gut;Moechtest du das Rezept sehen?;Rezeptliste/Wie findest du die Zutaten?;0;0;6;text
+VP1.9T;437;3.3;3.3;3.4;3.3;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;6;text
+VP2.1T;438;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;text
+VP2.1T;439;2.1;1;0;1;0;1;1;Ich brauche ein schnelles und steigendes Gericht;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Hallo! Was kann ich fuer dich tun?;0;1;6;text
+VP2.1T;440;2.1;2.1;2.1;0;;;;saettingendes;Auf was hast du Lust?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;6;text
+VP2.1T;441;2.1;2.1;2.1;2.1;;;;Indisch;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;6;text
+VP2.1T;442;2.1;2.1;2.1;2.1;;;;Gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;6;text
+VP2.1T;443;2.1;2.1;2.1;2.1;;;;Fuer mich alleine;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;6;text
+VP2.1T;444;2.1;2.1;2.1;2.1;;;;Bin offen fuer alles;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;6;text
+VP2.1T;445;2.1;2.1;2.2;2.1;;;;Immer vegan;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;6;text
+VP2.1T;446;2.2;2.1;0;2.2;;;;Pfeffer, Chilli, Kurkuma, Ingwer ubd Koriander;Ich glaube da war ein Rechtschreibfehler. Was meintest du?;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;1;6;text
+VP2.1T;447;2.2;2.2;3.1;0;;;;Pfeffer, Chilli, Kurkuma, Ingwer und Koriander;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Alu Chana Masala"". Wie klingt das fuer dich?";Ich glaube da war ein Rechtschreibfehler. Was meintest du?;0;1;6;text
+VP2.1T;448;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Alu Chana Masala"". Wie klingt das fuer dich?";0;0;6;text
+VP2.1T;449;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;6;text
+VP2.1T;450;3.3;3.2;3.3;3.3;;;;Sehr gut;Moechtest du das Rezept sehen?;Zutatenliste/Wie findest du die Zutaten?;0;0;6;text
+VP2.1T;451;3.3;3.3;3.4;3.3;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;6;text
+VP2.4T;452;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;4;text
+VP2.4T;453;2.1;1;2.1;1;0;1;1;Suche nach Rezept fŸr ein leichtes Gericht;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fŸr dich tun?;0;0;4;text
+VP2.4T;454;2.1;2.1;2.1;2.1;;;;10 Minuten;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;4;text
+VP2.4T;455;2.1;2.1;2.2;2.1;;;;Salat;Was sind deine Lieblingszutaten?;Auf was hast du Lust?;0;0;4;text
+VP2.4T;456;2.2;2.1;3.1;2.2;;;;Tomaten Zwiebeln Mozzarella Feldsalat;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden : "" Salat im Glas / Salat fŸrs BŸro ""Griechischer Salat"" Wie klingt das fŸr dich? """;Was sind deine Lieblingszutaten?;0;0;4;text
+VP2.4T;457;3.1;2.2;3.2;3.1;0;;;Ja klingt super;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden : "" Salat im Glas / Salat fŸrs BŸro ""Griechischer Salat"" Wie klingt das fŸr dich? """;0;0;4;text
+VP2.4T;458;3.2;3.1;3.3;3.2;;;;JA;Zutatenliste / Wie gefallen dir die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;4;text
+VP2.4T;459;3.3;3.2;3.4;3.3;;;;JA PASST;Rezept;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;4;text
+VP2.4T;460;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;5;text
+VP2.4T;461;2.1;1;2.1;1;1;1;1;Suche nach einem leichten Abendgericht bitte;Erwartest du Besuch oder kochst du fŸr dich allein?;Hallo! Was kann ich fŸr dich tun?;0;0;5;text
+VP2.4T;462;2.1;2.1;2.1;2.1;;;;FŸr mich allein;Zu was fŸr Rezepten greifst du normalerweise, wenn du etwas kochen mšchtest?;Erwartest du Besuch oder kochst du fŸr dich allein?;0;0;5;text
+VP2.4T;463;2.2;2.1;3.1;2.1;;;;Brot Schinken Ei Schnittlauch;"Du hast erwŠhnt, dass du Brot, Schinken, Ei, Schnittlauch magst, wie klingt ""†berraschungsbrot"" fŸr dich?";Zu was fŸr Rezepten greifst du normalerweise, wenn du etwas kochen mšchtest?;0;0;5;text
+VP2.4T;464;3.1;2.2;3.2;3.1;0;;;klingt gut ;Mšchtest du die Zutatenliste sehen?;"Du hast erwŠhnt, dass du Brot, Schinken, Ei, Schnittlauch magst, wie klingt ""†berraschungsbrot"" fŸr dich?";0;0;5;text
+VP2.4T;465;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste / Wie gefallen dir die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;5;text
+VP2.4T;466;3.3;3.2;3.4;3.3;;;;perfekt;Rezept;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;5;text
+VP2.4T;467;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;6;text
+VP2.4T;468;2.1;1;2.2;1;0;1;1;Suche einem Abendgericht das einfach zu zubereiten ist;Welche Zutaten wŸrdest du niemals benŸtzen?;Hallo! Was kann ich fŸr dich tun?;0;0;6;text
+VP2.4T;469;2.2;2.1;2.1;2.2;;;;Champignons;Wie stehst du zu regionaler KŸche?;Welche Zutaten wŸrdest du niemals benŸtzen?;0;0;6;text
+VP2.4T;470;2.1;2.2;2.2;2.1;;;;gefŠllt mir;Was sind deine Lieblingszutaten?;Wie stehst du zu regionaler KŸche?;0;0;6;text
+VP2.4T;471;2.2;2.1;3.1;2.2;;;;Krautsalat Ei KŠse Tomaten;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: "" Low-Carb HŠhnchen-Dšner-Rolle "" Wie klingt das fŸr dich?";Was sind deine Lieblingszutaten?;0;0;6;text
+VP2.4T;472;3.1;2.2;3.2;3.1;0;;;Klingt nicht schlecht;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: "" Low-Carb HŠhnchen-Dšner-Rolle "" Wie klingt das fŸr dich?";0;0;6;text
+VP2.4T;473;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie gefallen dir die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;6;text
+VP2.4T;474;3.3;3.2;3.4;3.3;;;;passt;Rezept;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;6;text
+VP2.5T;475;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;2;text
+VP2.5T;476;2.1;1;3.1;1;0;1;1;Ich brauche ein Rezept fŸr Mohnkuchen mit Streusel;"Wie klingt ""Schneller Mohnkuchen mit Streuseln"" fŸr dich?";Hallo! Was kann ich fŸr dich tun?;0;0;2;text
+VP2.5T;477;3.1;2.1;3.2;3.1;0;;;gut;Mšchtest du die Zutatenliste sehen?;"Wie klingt ""Schneller Mohnkuchen mit Streuseln"" fŸr dich?";0;0;2;text
+VP2.5T;478;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;2;text
+VP2.5T;479;3.3;3.2;3.3;3.3;;;;gut, aber Milch gegen Mandelmilch austauschen;Mšchtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;2;text
+VP2.5T;480;3.3;3.3;3.4;3.3;;;;ja;Rezept;Mšchtest du das Rezept sehen?;0;0;2;text
+VP2.5T;481;4;3.3;-1;3.4;;;;gutes Rezept, bis auf das Austauschen der Milch und Margarine statt Butter;NaN;Rezept;0;0;2;text
+VP2.5T;482;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;3;text
+VP2.5T;483;2.1;1;3.1;1;0;1;1;schnelles Rezept fŸr Nudeln mit Tomatenso§e;"Wie klingt ""Nudeln in leichter, sŠmiger Thunfisch-Tomaten-KŠse Sauce"" fŸr dich?";Hallo! Was kann ich fŸr dich tun?;0;0;3;text
+VP2.5T;484;2.2;2.1;3.1;3.1;;;;ohne KŠse, ohne Fisch, ohne Champignon;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Nudeln in Tomatenso§e"" Wie klingt das fŸr dich?";"Wie klingt ""Nudeln in leichter, sŠmiger Thunfisch-Tomaten-KŠse Sauce"" fŸr dich?";0;0;3;text
+VP2.5T;485;3.1;2.2;3.2;3.1;0;;;sehr gut!;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Nudeln in Tomatenso§e"" Wie klingt das fŸr dich?";0;0;3;text
+VP2.5T;486;3.2;3.1;3.4;3.2;;;;gleich das Rezept;Rezept;Mšchtest du die Zutatenliste sehen?;0;0;3;text
+VP2.5T;487;4;3.2;-1;3.4;;;;klingt gut;NaN;Rezept;0;0;3;text
+VP2.5T;488;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;5;text
+VP2.5T;489;2.1;1;3.1;1;0;1;2;zeige mir die Zubereitung fŸr ein WŸrstlgulasch ohne Champignon und einen Vorschlag fŸr Beilage;"Wie klingt ""Wurstgulasch"" fŸr dich?";Hallo! Was kann ich fŸr dich tun?;0;0;5;text
+VP2.5T;490;3.1;2.1;3.2;3.1;0;;;gut;Mšchtest du die Zutatenliste sehen?;"Wie klingt ""Wurstgulasch"" fŸr dich?";0;0;5;text
+VP2.5T;491;3.2;3.1;3.3;3.2;;;;hŠtte ich gerne, ja;Zutatenliste / Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;5;text
+VP2.5T;492;3.3;3.2;3.3;3.3;;;;Zutaten sind super;Mšchtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;5;text
+VP2.5T;493;3.3;3.3;3.4;3.3;;;;ja bitte;Rezept;Mšchtest du das Rezept sehen?;0;0;5;text
+VP2.5T;494;4;3.3;;3.4;;;;gut super;NaN;Rezept;0;0;5;text
+VP2.6T;495;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;3;text
+VP2.6T;496;2.1;1;2.1;1;0;1;0;ich brauche was schnelles zu essen;Auf was hast du Lust?;Hallo! Was kann ich fŸr dich tun?;0;0;3;text
+VP2.6T;497;2.1;2.1;3.1;2.1;;;;ein belegtes brot mit fleisch und frischkŠse;"Wie klingt ""Philadelphia-Bacon-Toast"" fŸr dich?";Auf was hast du Lust?;0;0;3;text
+VP2.6T;498;3.1;2.1;3.2;3.1;0;;;sehr gut!;Mšchtest du die Zutatenliste sehen?;"Wie klingt ""Philadelphia-Bacon-Toast"" fŸr dich?";0;0;3;text
+VP2.6T;499;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste/ Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;3;text
+VP2.6T;500;3.3;3.2;3.4;3.3;;;;gefallen mir;Rezept;Zutatenliste/ Wie findest du die Zutaten?;0;0;3;text
+VP2.6T;501;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;2;text
+VP2.6T;502;2.1;1;3.1;1;0;1;1;zeige mir ein einfaches marmorkuchen rezept;"Wie klingt ""Marmorkuchen nach Frieda"" fŸr dich?";Hallo! Was kann ich fŸr dich tun?;0;0;2;text
+VP2.6T;503;3.2;2.1;3.2;3.1;;;;zeige mir die zutatenliste;Zutatenliste / Wie findest du die Zutaten?;"Wie klingt ""Marmorkuchen nach Frieda"" fŸr dich?";0;0;2;text
+VP2.6T;504;3.3;3.2;3.3;3.2;;;;gut, ich werde die milch und butter ersetzen ;Mšchtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;2;text
+VP2.6T;505;3.3;3.3;3.4;3.3;;;;ja;Rezept;Mšchtest du das Rezept sehen?;0;0;2;text
+VP2.6T;506;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;4;text
+VP2.6T;507;2.1;1;3.1;1;0;1;0;zeig mir ein bananen smoothie rezept;"Wie klingt ""erdbeer-bananen smoothie"" fŸr dich?";Hallo! Was kann ich fŸr dich tun?;0;0;4;text
+VP2.6T;508;3.1;2.1;2.2;3.1;0;;;ich mag keine erdbeeren;Welche Zutaten wŸrdest du niemals benŸtzen?;"Wie klingt ""erdbeer-bananen smoothie"" fŸr dich?";0;0;4;text
+VP2.6T;509;2.2;3.1;3.1;2.2;;;;Erdbeeren und Ingwer;"Mit den Zutaten die du mir genannt hast habe ich folgendes Rezept gefunden ""Kiwi-Bananen Smoothie"". Wie klingt das fŸr dich?";Welche Zutaten wŸrdest du niemals benŸtzen?;0;0;4;text
+VP2.6T;510;3.1;2.2;3.4;3.1;0;;;klingt lecker zeig mir das Rezept;Rezept;"Mit den Zutaten die du mir genannt hast habe ich folgendes Rezept gefunden ""Kiwi-Bananen Smoothie"". Wie klingt das fŸr dich?";0;0;4;text
+VP1.2A;511;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;audio
+VP1.2A;512;2.1;1;2.1;1;0;1;1;Ich suche ein Rezept fuer einen Veganer. In vier Stunden braeuchte ich das Ganze;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;1;audio
+VP1.2A;513;2.1;2.1;2.1;2.1;;;;Irgendwas mit Kartoffeln;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;1;audio
+VP1.2A;514;2.1;2.1;2.1;2.1;;;;Normal, also jetzt nicht extrem aber ich kann schon kochen. Einbischen.;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;1;audio
+VP1.2A;515;2.1;2.1;2.1;2.1;;;;Ich koche fuer drei Personen;Wie stehst du zu deftimen/leichtem/saisonalem Essen?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;1;audio
+VP1.2A;516;2.1;2.1;2.2;2.1;;;;Lieber leichtes Essen;Was sind deine Lieblingszutaten?;Wie stehst du zu deftimen/leichtem/saisonalem Essen?;0;0;1;audio
+VP1.2A;517;2.2;2.1;3.1;2.2;;;;Kartoffeln und Tomaten und Rotwein;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Veganer Eintopf mit roten Linsen, Kidneybohnen und Kartoffeln"" Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;1;audio
+VP1.2A;518;3.1;2.2;3.2;3.1;0;;;Find ich gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Veganer Eintopf mit roten Linsen, Kidneybohnen und Kartoffeln"" Wie klingt das fuer dich?";0;0;1;audio
+VP1.2A;519;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;1;audio
+VP1.2A;520;3.3;3.2;3.3;3.3;;;;Find ich gut;Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;1;audio
+VP1.2A;521;3.3;3.3;3.4;3.3;;;;Ja moechte ich;Link;Moechtest du das Rezept sehen?;0;0;1;audio
+VP1.8A;522;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;audio
+VP1.8A;523;2.1;1;2.1;1;0;1;1;Ich suche ein veganes Rezept fuer drei Personen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;1;audio
+VP1.8A;524;2.2;2.1;2.1;2.1;;;;Zucchini, einen haufen Zucchini;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;1;audio
+VP1.8A;525;2.1;2.2;2.1;2.1;;;;schlecht;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;1;audio
+VP1.8A;526;2.1;2.1;3.1;2.1;;;;Ueberbacken;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""ueberbackene Zuccinischeiben mit Tomaten-Chili-Sahne-SoÌÙe"". Wie klingt das fuer dich?";Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;1;audio
+VP1.8A;527;3.1;2.1;3.2;3.1;0;;;Das klingt sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""ueberbackene Zuccinischeiben mit Tomaten-Chili-Sahne-SoÌÙe"". Wie klingt das fuer dich?";0;0;1;audio
+VP1.8A;528;3.2;3.1;3.3;3.2;;;;ja, bitte;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;1;audio
+VP1.8A;529;3.3;3.2;3.3;3.3;;;;sehr gut;Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;1;audio
+VP1.8A;530;3.3;3.3;3.4;3.3;;;;ja, bitte;Rezept;Moechtest du das Rezept sehen?;0;0;1;audio
+VP1.9A;531;1;-1;1;-1;;;;Hey TeleFood ;Hallo! Was kann ich fuer dich tun?;;0;0;1;audio
+VP1.9A;532;2.1;1;2.1;1;1;2;2;ich wuerde gerne fuer zwei, fuer mich und zwei meiner Freunde kochen. Zeitdruck habe ich keinen und das Rezept sollte vegan sein.;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;;;;
+VP1.9A;533;2.1;2.1;2.2;2.1;;;;Da ich keinen Zeitdruck habe etwas ausgefallenes;Welches Gemuese magst du?;Auf was hast du Lust?;0;0;1;audio
+VP1.9A;534;2.2;2.1;2.2;2.2;;;;Spargel waere ganz gut;Was sind deine Lieblingszutaten?;Welches Gemuese magst du?;0;0;1;audio
+VP1.9A;535;2.2;2.2;3.1;2.2;;;;Kartoffeln, Spargel und dann was noch so ansteht;"Du hast erwaehnt, dass du Spargel, Kartoffeln magst, wie klingt ""Spargel-Kartoffel-Salat ""Fruehling"" "" fuer dich?";Was sind deine Lieblingszutaten?;0;0;1;audio
+VP1.9A;536;3.1;2.2;3.2;3.1;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du Spargel, Kartoffeln magst, wie klingt ""Spargel-Kartoffel-Salat ""Fruehling"" "" fuer dich?";0;0;1;audio
+VP1.9A;537;3.3;3.1;3.4;3.2;;;;ja ich wuerde gerne das Rezept sehen;Rezept;Moechtest du die Zutatenliste sehen?;0;0;1;audio
+VP2.1A;538;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;audio
+VP2.1A;539;2.1;1;2.1;1;1;1;0;Ich moechte Abendessen kochen;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;1;audio
+VP2.1A;540;2.1;2.1;2.1;2.1;;;;Vier Stunden;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;1;audio
+VP2.1A;541;2.1;2.1;2.1;2.1;;;;Welche Kategorien gibt es den;15 Minuten, 30 Minuten, 60 Minuten, 120 Minuten;Auf was hast du Lust?;0;0;1;audio
+VP2.1A;542;2.1;2.1;2.1;2.1;;;;1.20 Minuten;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;15 Minuten, 30 Minuten, 60 Minuten, 120 Minuten;0;0;1;audio
+VP2.1A;543;2.1;2.1;2.1;2.1;;;;gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;1;audio
+VP2.1A;544;2.1;2.1;2.1;2.1;;;;Ich erwarte zwei weitere Personen;gibt es Allergiker?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;1;audio
+VP2.1A;545;2.1;2.1;2.1;2.1;;;;nein;Gibt es spezielle Diaeten? Gibt es Veganer oder Vegetarier?;gibt es Allergiker?;0;0;1;audio
+VP2.1A;546;2.1;2.1;2.2;2.1;;;;wir haben einen veganer;Was sind deine Lieblingszutaten?;Gibt es spezielle Diaeten? Gibt es Veganer oder Vegetarier?;0;0;1;audio
+VP2.1A;547;2.2;2.1;2.2;2.2;;;;Kuerbis;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;1;audio
+VP2.1A;548;2.2;2.2;3.1;2.2;;;;Kuerbis, Brokkoli find ich auch ganz gut;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kuerbis-Moehren-Brokkoli-Curry mit Kokosmilch"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;1;audio
+VP2.1A;549;3.1;2.2;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kuerbis-Moehren-Brokkoli-Curry mit Kokosmilch"". Wie klingt das fuer dich?";0;0;1;audio
+VP2.1A;550;3.2;3.1;3.3;3.2;;;;bitte gerne;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;1;audio
+VP2.1A;551;3.3;3.2;3.4;3.3;;;;sehr gut, kann ich das Rezept sehen;Rezept;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;1;audio
+VP2.1A;552;4;3.3;-1;3.4;;;;vielen dank;NaN;Rezept;0;0;1;audio
+VP2.2A;553;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;1;audio
+VP2.2A;554;2.1;1;2.1;1;0;2;1;Suche mir ein veganes rezept raus das ich in einer stunde kochen kann;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;1;audio
+VP2.2A;555;2.1;2.1;2.1;2.1;;;;empfehle mir etwas;Wie stehst du zu deftimen/leichtem/saisonalem Essen?;Auf was hast du Lust?;0;0;1;audio
+VP2.2A;556;2.1;2.1;2.1;2.1;;;;ich stehe gut dazu;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Wie stehst du zu deftimen/leichtem/saisonalem Essen?;0;0;1;audio
+VP2.2A;557;2.1;2.1;2.2;2.1;;;;gesund;Welche Zutaten wuerdest du niemals benuetzen?;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;1;audio
+VP2.2A;558;2.2;2.1;2.2;2.2;;;;Tomaten;Was sind deine Lieblingszutaten?;Welche Zutaten wuerdest du niemals benuetzen?;0;0;1;audio
+VP2.2A;559;2.2;2.2;2.2;2.2;;;;Das weiÌÙ ich nicht;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;1;audio
+VP2.2A;560;2.2;2.2;2.2;2.2;;;;Zwiebeln;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Welches Gemuese magst du?;0;0;1;audio
+VP2.2A;561;2.2;2.2;3.1;2.2;;;;Reis;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Cashew-Zwiebel-Reis"". Wie klingt das fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;1;audio
+VP2.2A;562;3.1;2.2;3.4;3.1;0;;;zeig es mir;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Cashew-Zwiebel-Reis"". Wie klingt das fuer dich?";0;0;1;audio
+VP2.2A;563;3.4;3.1;2.2;3.4;;;;gibt es alternativen;Das tut mir Leid.Welche Zutaten wuerdest du niemals benuetzen?;Rezept;0;0;1;audio
+VP2.2A;564;2.2;3.4;3.1;2.2;;;;keine. Zeig mir einfach nur alternativen;"Du hast erwaehnt, dass du Reis, Zwiebeln magst, wie klingt ""Veganer Paprika-Zucchini-Reis mit Sesam"" fuer dich?";Das tut mir Leid.Welche Zutaten wuerdest du niemals benuetzen?;0;0;1;audio
+VP2.2A;565;3.1;2.2;3.4;3.1;0;;;gut. Zeig es mir;Rezept;"Du hast erwaehnt, dass du Reis, Zwiebeln magst, wie klingt ""Veganer Paprika-Zucchini-Reis mit Sesam"" fuer dich?";0;0;1;audio
+VP2.2A;566;4;3.1;-1;3.4;;;;danke;NaN;Rezept;0;0;1;audio
+VP1.2A;567;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;audio
+VP1.2A;568;2.1;1;2.1;1;0;1;1;Ich brauche einen Kuchen ohne Milchprodukte;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;2;audio
+VP1.2A;569;2.1;2.1;2.1;2.1;;;;Ich habe viel Zeit;Wie ausgefallen darf das Rezept sein?;Wieviel Zeit hast du zum Kochen?;0;0;2;audio
+VP1.2A;570;2.1;2.1;2.2;2.1;;;;Nicht sehr ausgefallen bitte;Was sind deine Lieblingszutaten?;Wie ausgefallen darf das Rezept sein?;0;0;2;audio
+VP1.2A;571;2.2;2.1;3.1;2.2;;;;Marzipan;"Du hast erwaehnt, dass du Marzipan magst, wie klingt ""Apfel-Marzipan-Kuchen"" fuer dich?";Was sind deine Lieblingszutaten?;0;0;2;audio
+VP1.2A;572;3.1;2.2;3.2;3.1;0;;;Find ich gut;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du Marzipan magst, wie klingt ""Apfel-Marzipan-Kuchen"" fuer dich?";0;0;2;audio
+VP1.2A;573;3.2;3.1;3.3;3.2;;;;Ja moechte ich;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;audio
+VP1.2A;574;3.3;3.2;3.3;3.3;;;;Find ich gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;2;audio
+VP1.2A;575;3.3;3.3;3.4;3.3;;;;Ja moechte ich;Link;Moechtest du das Rezept sehen?;0;0;2;audio
+VP1.3A;576;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;audio
+VP1.3A;577;2.1;1;2.1;1;0;1;1;Ich suche ein Kuchenrezept wenn moeglich ohne Milchprodukte;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;2;audio
+VP1.3A;578;2.1;2.1;2.1;2.1;;;;Egal wie lange es dauert;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Wieviel Zeit hast du zum Kochen?;0;0;2;audio
+VP1.3A;579;2.1;2.1;2.1;2.1;;;;Ich habe gute Kochfertigkeiten;Wie ausgefallen darf das Rezept sein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;2;audio
+VP1.3A;580;2.1;2.1;2.2;2.1;;;;Darf auch ausgefallen sein;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;audio
+VP1.3A;581;2.2;2.1;3.1;2.2;;;;Erdbeeren und Schokolade;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schoko-Erdbeer-Kuchen"". Wie findest du das Rezept?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;audio
+VP1.3A;582;3.1;2.2;3.2;3.1;0;;;Find ich gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schoko-Erdbeer-Kuchen"". Wie findest du das Rezept?";0;0;2;audio
+VP1.3A;583;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;audio
+VP1.3A;584;3.3;3.2;3.3;3.3;;;;Ja die gefallen mir;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;2;audio
+VP1.3A;585;3.3;3.3;3.4;3.3;;;;Ja;Link;Moechtest du das Rezept sehen?;0;0;2;audio
+VP1.4A;586;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;audio
+VP1.4A;587;2.1;1;2.1;1;0;0;1;Kuchen ohne Milch;Wie ausgefallen darf das Rezept sein?;Hallo! Was kann ich fuer dich tun?;0;0;2;audio
+VP1.4A;588;2.1;2.1;2.2;2.1;;;;einfach;Was sind deine Lieblingszutaten in Kuchen?;Wie ausgefallen darf das Rezept sein?;0;0;2;audio
+VP1.4A;589;2.2;2.1;3.1;2.2;;;;Schokolade;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schoko-Nuss-Kuchen"". Wie klingt das Rezept fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;audio
+VP1.4A;590;3.1;2.2;3.2;3.1;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Schoko-Nuss-Kuchen"". Wie klingt das Rezept fuer dich?";0;0;2;audio
+VP1.4A;591;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;audio
+VP1.4A;592;3.3;3.2;3.4;3.3;;;;Zeig mir das Rezept;Link/Wie findest du das Rezept?;Zutatenliste / Wie findest du die Zutaten?;0;0;2;audio
+VP1.4A;593;3.4;3.3;-1;3.4;;;;Find ich gut;NaN;Link/Wie findest du das Rezept?;0;0;2;audio
+VP1.7A;594;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;audio
+VP1.7A;595;2.1;1;2.1;1;0;1;1;Suche mir ein Rezept fuer einen laktosefreien Kuchen;Was sind deine Lieblingszutaten in Kuchen?;Hallo! Was kann ich fuer dich tun?;0;0;2;audio
+VP1.7A;596;2.1;2.1;2.1;2.1;;;;egal suche mir ein zufaelliges Rezept;Wie ausgefallen darf das Rezept sein?;Was sind deine Lieblingszutaten in Kuchen?;0;0;2;audio
+VP1.7A;597;2.1;2.1;3.1;2.1;;;;sehr ausgefallen;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Chrissis Schneewittchen-Kuchen"". Wie klingt das fuer dich?";Wie ausgefallen darf das Rezept sein?;0;0;2;audio
+VP1.7A;598;3.3;2.1;3.4;3.1;;;;zeig mir das Rezept;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Chrissis Schneewittchen-Kuchen"". Wie klingt das fuer dich?";0;0;2;audio
+VP2.1A;599;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;2;audio
+VP2.1A;600;2.1;1;2.1;1;0;1;1;Suche nach laktosefreien Geburtstagskuchenrezepten;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;2;audio
+VP2.1A;601;2.1;2.1;2.2;2.1;;;;Ich moechte einen Geburtstagskuchen backen;Was sind deine Lieblingszutaten in Kuchen?;Auf was hast du Lust?;0;0;2;audio
+VP2.1A;602;2.2;2.1;3.1;2.2;;;;Ich mag Rotweinkuchen;"Du hast erwaehnt, dass du Rotweinkuchen magst, wie klingt ""Rotweinkuchen"" fuer dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;audio
+VP2.1A;603;3.1;2.2;3.1;3.1;0;;;Klingt gut, kannst du nach Rezepten ohne Milch suchen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rotweinkuchen"". Wie klingt das fuer dich?";"Du hast erwaehnt, dass du Rotweinkuchen magst, wie klingt ""Rotweinkuchen"" fuer dich?";0;0;2;audio
+VP2.1A;604;3.1;3.1;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rotweinkuchen"". Wie klingt das fuer dich?";0;0;2;audio
+VP2.1A;605;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;2;audio
+VP2.1A;606;3.3;3.2;3.3;3.3;;;;sehr gut, vielen Dank;Moechtest du das Rezept sehen?;Zutatenliste/ Wie gefallen dir die Zutaten?;0;0;2;audio
+VP2.1A;607;3.3;3.3;3.4;3.3;;;;ja bitteschoen;Rezept;Moechtest du das Rezept sehen?;0;0;2;audio
+VP2.1A;608;4;3.3;-1;3.4;;;;Vielen Dank da passt fuer meinen Use Case. Dankeshoen.;NA;Rezept;0;0;2;audio
+VP1.3A;609;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP1.3A;610;2.1;1;2.1;1;0;1;0;Ich brauche ein Rezept fuer ein schnelles Essen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP1.3A;611;2.1;2.1;2.1;2.1;;;;Irgendwas mit Kartoffeln;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;audio
+VP1.3A;612;2.1;2.1;2.1;2.1;;;;Ich habe gute Kochfertigkeiten;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;audio
+VP1.3A;613;2.1;2.1;2.1;2.1;;;;Alleine;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;audio
+VP1.3A;614;2.1;2.1;2.1;2.1;;;;Ist egal;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;3;audio
+VP1.3A;615;2.1;2.1;2.2;2.1;;;;Ich mag ein leichtes Essen;Welches Gemuese magst du?;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;0;0;3;audio
+VP1.3A;616;2.2;2.1;2.2;2.2;;;;Blumenkohl und Brokkoli;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Welches Gemuese magst du?;0;0;3;audio
+VP1.3A;617;2.2;2.2;2.1;2.2;;;;Ich mag alles;Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;3;audio
+VP1.3A;618;2.1;2.2;3.1;2.1;;;;Immer gesund;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Blumenkohl - Brokkoli - Auflauf"". Wie klingt das Rezept fuer dich?";Wie ernaehrst du dich unter der Woche? Wie am Wochenende?;0;0;3;audio
+VP1.3A;619;3.1;2.1;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Blumenkohl - Brokkoli - Auflauf"". Wie klingt das Rezept fuer dich?";0;0;3;audio
+VP1.3A;620;3.2;3.1;3.3;3.2;;;;Ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;audio
+VP1.3A;621;3.3;3.2;3.3;3.3;;;;Ja;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;audio
+VP1.3A;622;3.3;3.3;3.4;3.3;;;;Ja;Rezept;Moechtest du das Rezept sehen?;0;0;3;audio
+VP1.4A;623;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP1.4A;624;2.1;1;2.1;1;0;1;1;Ich brauche einen Imbiss in der naehe;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP1.4A;625;2.1;2.1;2.1;2.1;;;;Schnelles Abendessen;Auf was hast du Lust?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;3;audio
+VP1.4A;626;2.1;2.1;2.1;2.1;;;;asiatisch;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;audio
+VP1.4A;627;2.1;2.1;2.1;2.1;;;;gut;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;audio
+VP1.4A;628;2.1;2.1;2.1;2.1;;;;Ich koch fuer mich alleine;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;3;audio
+VP1.4A;629;2.1;2.1;2.1;2.1;;;;Nein;Wie ausgefallen darf das Rezept sein?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;3;audio
+VP1.4A;630;2.1;2.1;2.1;2.1;;;;einfach;Was sind deine Lieblingszutaten?;Wie ausgefallen darf das Rezept sein?;0;0;3;audio
+VP1.4A;631;2.1;2.1;2.2;2.1;;;;Nudeln;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;3;audio
+VP1.4A;632;2.2;2.1;2.2;2.2;;;;Karotten;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Welches Gemuese magst du?;0;0;3;audio
+VP1.4A;633;2.2;2.2;3.1;2.2;;;;Nein;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Asia-Nudeln"". Wie findest du das Rezept?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;3;audio
+VP1.4A;634;3.1;2.2;3.4;3.1;0;;;Zeig mir das Rezept;Link;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Asia-Nudeln"". Wie findest du das Rezept?";0;0;3;audio
+VP1.4A;635;4;3.1;-1;3.4;;;;Find ich gut;NaN;Link;0;0;3;audio
+VP1.5A;636;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP1.5A;637;2.1;1;2.1;1;0;1;0;also Rezept von Sandwiches suchen;Was sind deine Lieblingszutaten?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP1.5A;638;2.2;2.1;2.1;2.1;;;;Kaese und Tomaten;Wieviel Zeit hast du zum Kochen?;Was sind deine Lieblingszutaten?;0;0;3;audio
+VP1.5A;639;2.1;2.2;3.1;2.1;;;;15 Minuten;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Warmes Tomaten-Kaese-Sandwich"". Wie klingt das fuer dich?";Wieviel Zeit hast du zum Kochen?;0;0;3;audio
+VP1.5A;640;3.1;2.1;3.2;3.1;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Warmes Tomaten-Kaese-Sandwich"". Wie klingt das fuer dich?";0;0;3;audio
+VP1.5A;641;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;audio
+VP1.5A;642;3.3;3.2;2.2;3.3;;;;gibt es noch anderes Rezept?;Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;audio
+VP1.5A;643;2.2;3.3;3.1;2.2;;;;Pesto;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Sandwich mit Tomaten und Kaese ueberbacken"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;audio
+VP1.5A;644;3.1;2.2;0;3.1;0;;;ja kann ich das schauen;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Sandwich mit Tomaten und Kaese ueberbacken"". Wie klingt das fuer dich?";0;0;3;audio
+VP1.5A;645;3.1;3.1;3.2;0;0;;;ja das klingt gut;Moechtest du die Zutatenliste sehen?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;3;audio
+VP1.5A;646;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;audio
+VP1.5A;647;3.3;3.2;3.4;3.3;;;;ich finde das ganz gut danke;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;audio
+VP1.5A;648;3.4;3.3;3.4;3.4;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;3;audio
+VP1.8A;649;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP1.8A;650;2.1;1;2.1;1;0;1;2;Ich brauche ein schnelles, saettigendes Gericht in unter einer Stunde;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP1.8A;651;2.1;2.1;2.1;2.1;;;;ich benuetze keine Rezepte, ich improvisiere;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;3;audio
+VP1.8A;652;2.1;2.1;2.2;2.1;;;;Etwas leichtes klingt gut;Was sind deine Lieblingszutaten?;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;0;0;3;audio
+VP1.8A;653;2.2;2.1;2.2;2.2;;;;Paprika;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Was sind deine Lieblingszutaten?;0;0;3;audio
+VP1.8A;654;2.2;2.2;3.1;2.2;;;;Nudeln oder Reis;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Paprika-Sahne-Sauce"". Wie klingt das fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;3;audio
+VP1.8A;655;3.1;2.2;3.2;3.1;0;;;Das klingt sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit Paprika-Sahne-Sauce"". Wie klingt das fuer dich?";0;0;3;audio
+VP1.8A;656;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;audio
+VP1.8A;657;3.3;3.2;3.4;3.3;;;;sehr gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;3;audio
+VP1.8A;658;3.4;3.3;3.4;3.4;;;;ja bitte;Rezept;Moechtest du das Rezept sehen?;0;0;3;audio
+VP2.1A;659;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP2.1A;660;2.1;1;2.1;1;0;1;0;Ich moechte ein schnelles Gericht kochen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP2.1A;661;2.1;2.1;2.1;2.1;;;;ich moechte etwas herzhaftes;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;3;audio
+VP2.1A;662;2.1;2.1;3.1;2.1;;;;kannst du mir die drei schnellsten Rezepte geben? Meine Kochfertigkeiten sind mittelgut;"Die drei schnellsten Rezepte lauten: ""Pizza-Snacker"", ""Schnelle Speckbroetchen"" und ""Haehnchengeschnetzeltes"".";Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;audio
+VP2.1A;664;5;2.1;5;3.1;;;;Wie lange dauert Pizza-Snacker;5 Minuten;"Die drei schnellsten Rezepte lauten: ""Pizza-Snacker"", ""Schnelle Speckbroetchen"" und ""Haehnchengeschnetzeltes"".";0;0;3;audio
+VP2.1A;665;3.1;5;3.4;5;1;;;okay, zeige mir bitte das Rezept;Rezept;5 Minuten;0;0;3;audio
+VP2.1A;666;4;3.1;-1;3.4;;;;Vielen Dank, super;NA;Rezept;0;0;3;audio
+VP2.2A;667;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;3;audio
+VP2.2A;668;2.1;1;2.1;1;0;1;0;Gibt mir ein Rezept mit Spaghetti aus;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;3;audio
+VP2.2A;669;2.1;2.1;2.1;2.1;;;;5 Minuten;Welches Gemuese magst du?;Wieviel Zeit hast du zum Kochen?;0;0;3;audio
+VP2.2A;670;2.1;2.1;2.1;2.1;;;;Viel;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Welches Gemuese magst du?;0;0;3;audio
+VP2.2A;671;2.1;2.1;2.2;2.1;;;;fortgeschritten;Welche Zutaten wuerdest du niemals benuetzen?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;3;audio
+VP2.2A;672;2.2;2.1;3.1;2.2;;;;Auberginen;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Spaghetti mediterran oder Pizza Spaghetti"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;3;audio
+VP2.2A;673;3.1;2.2;3.2;3.1;0;;;ja, Spaghetti mediterran;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Spaghetti mediterran oder Pizza Spaghetti"". Wie klingt das fuer dich?";0;0;3;audio
+VP2.2A;674;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;3;audio
+VP2.2A;675;3.3;3.2;3.4;3.3;;;;gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie gefallen dir die Zutaten?;0;0;3;audio
+VP2.2A;676;3.4;3.3;3.4;3.4;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;3;audio
+VP2.2A;677;4;3.4;-1;3.4;;;;Danke;NaN;Rezept;0;0;3;audio
+VP1.1A;678;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.1A;679;2.1;1;2.1;1;0;1;0;Suche nach einem Rezept fuer ein leichtes Essen;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.1A;680;2.1;2.1;2.1;2.1;;;;30 Minuten;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;4;audio
+VP1.1A;681;2.1;2.1;2.1;2.1;;;;Salat;Erwartest du Besuch oder kochst du fuer dich allein?;Auf was hast du Lust?;0;0;4;audio
+VP1.1A;682;2.1;2.1;3.1;2.1;;;;Ich koche fuer mich allein;"Wie klingt ""Salat im Glas/ Salat fuers Buero ""Griechischer Salat"" "" fuer dich?";Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;audio
+VP1.1A;683;3.1;2.1;3.2;3.1;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;"Wie klingt ""Salat im Glas/ Salat fuers Buero ""Griechischer Salat"" "" fuer dich?";0;0;4;audio
+VP1.1A;684;3.2;3.1;3.3;3.2;;;;Ja, bitte;Liste zeigen/ Wie gefallen dir die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;audio
+VP1.1A;685;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Liste zeigen/ Wie gefallen dir die Zutaten?;0;0;4;audio
+VP1.1A;686;3.4;3.3;3.4;3.4;;;;Ja, bitte;Link;Moechtest du das Rezept sehen?;0;0;4;audio
+VP1.2A;687;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.2A;688;2.1;1;2.1;1;0;1;0;Ich brauche ein schnelles Abendessen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.2A;689;2.1;2.1;2.1;2.1;;;;Ein Sandwich;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Auf was hast du Lust?;0;0;4;audio
+VP1.2A;690;2.2;2.1;3.1;2.1;;;;Tomaten, Gurken, Oliven, Brot;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Italien Sandwich"". Moechtest du die Zutatenliste sehen?";Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;4;audio
+VP1.2A;691;3.1;2.2;2.2;3.1;1;;;Nein moechte ich nicht;Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Italien Sandwich"". Moechtest du die Zutatenliste sehen?";0;0;4;audio
+VP1.2A;692;2.2;3.1;2.1;2.2;;;;Zwiebeln;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;audio
+VP1.2A;693;-1;2.2;0;2.1;;;;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;1;4;audio
+VP1.2A;694;2.1;-1;2.2;0;;;;Ich moechte nichts duensten;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;4;audio
+VP1.2A;695;2.2;2.1;3.1;2.2;;;;Pfeffer;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Sandwich mit Mozzarella, Tomaten und Parmaschinken"" Wie klingt das fuer dich?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;4;audio
+VP1.2A;696;3.1;2.2;3.2;3.1;0;;;Klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden. ""Sandwich mit Mozzarella, Tomaten und Parmaschinken"" Wie klingt das fuer dich?";0;0;4;audio
+VP1.2A;697;3.2;3.1;3.3;3.2;;;;Ja moechte ich;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;audio
+VP1.2A;698;3.3;3.2;3.4;3.3;;;;Find ich gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;4;audio
+VP1.2A;699;3.4;3.3;3.4;3.4;;;;Ja moechte ich;Link;Moechtest du das Rezept sehen?;0;0;4;audio
+VP1.3A;700;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.3A;701;2.1;1;2.1;1;1;1;1;Ich brauche ein Rezept fuer ein schnelles, leichtes Essen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.3A;702;2.1;2.1;2.1;2.1;;;;Irgendwas mit Gemuese;Erwartest du Besuch oder kochst du fuer dich allein?;Auf was hast du Lust?;0;0;4;audio
+VP1.3A;703;2.1;2.1;2.2;2.1;;;;Ich koche fuer mich alleine;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;audio
+VP1.3A;704;2.2;2.1;2.2;2.2;;;;Reis;Was sind deine Lieblingszutaten?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;4;audio
+VP1.3A;705;2.2;2.2;2.2;2.2;;;;Bohnen und Paprika;Welche Zutaten wuerdest du niemals benuetzen?;Was sind deine Lieblingszutaten?;0;0;4;audio
+VP1.3A;706;2.2;2.2;3.1;2.2;;;;Koriander;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Scharfe Paprika-Bohnen-Reis-Pfanne"". Wie klingt das Rezept fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;audio
+VP1.3A;707;3.1;2.2;2.2;3.1;0;;;Ich mag nichts scharfes;Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Scharfe Paprika-Bohnen-Reis-Pfanne"". Wie klingt das Rezept fuer dich?";0;0;4;audio
+VP1.3A;708;2.2;3.1;2.1;2.2;;;;Chilli;Wie stehst du zu regionaler Kueche?;Das tut mir leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;audio
+VP1.3A;709;2.1;2.2;3.1;2.1;;;;Find ich gut;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Paprika-Sahne Schnitzel mit Bohnenbuendchen und Reis"". Wie findest du das Rezept?";Wie stehst du zu regionaler Kueche?;0;0;4;audio
+VP1.3A;710;3.1;2.1;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Paprika-Sahne Schnitzel mit Bohnenbuendchen und Reis"". Wie findest du das Rezept?";0;0;4;audio
+VP1.3A;711;3.2;3.1;3.3;3.2;;;;Ja bitte;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;audio
+VP1.3A;712;3.3;3.2;3.3;3.3;;;;Fuer eine Person bitte;Zutatenliste / Wie findest du die Zutaten?;Zutatenliste / Wie findest du die Zutaten?;0;0;4;audio
+VP1.3A;713;3.3;3.3;3.4;3.3;;;;Die gefallen mir gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;4;audio
+VP1.3A;714;3.4;3.3;3.4;3.4;;;;Ja bitte;Link;Moechtest du das Rezept sehen?;0;0;4;audio
+VP1.5A;715;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.5A;716;2.1;1;2.1;1;1;1;1;Ich moechte etwas vegan kochen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.5A;717;2.2;2.1;2.1;2.1;;;;Rucola und Tomaten;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;4;audio
+VP1.5A;718;2.1;2.2;2.1;2.1;;;;vier Stunden;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;4;audio
+VP1.5A;719;2.1;2.1;3.1;2.1;;;;Ich koche das fuer drei Personen;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rucola-Avocado-Tomaten Salat mit Kuerbislernen"". Wie klingt das fuer dich?";Erwartest du Besuch oder kochst du fuer dich allein?;0;0;4;audio
+VP1.5A;720;3.1;2.1;3.2;3.1;0;;;ja klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Rucola-Avocado-Tomaten Salat mit Kuerbislernen"". Wie klingt das fuer dich?";0;0;4;audio
+VP1.5A;721;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;4;audio
+VP1.5A;722;3.3;3.2;3.4;3.3;;;;Ja das ist gut. Kann ich die Rezept sehen?;Rezept;Zutatenliste / Wie findest du die Zutaten?;0;0;4;audio
+VP1.6A;723;1;-1;1;-1;;;;Hey TeleFood. Ich wuerde gerne wissen was man am besten vor dem Joggen isst.;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.6A;724;1;-1;2.1;1;;;;Hey TeleFood. Ich wuerde gerne wissen was ich vor dem Joggen essen soll.;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.6A;725;2.1;1;2.1;2.1;;;;Hey Telefood. Auf was leichtes.;Wieviel Zeit hast du zum Kochen?;Auf was hast du Lust?;0;0;4;audio
+VP1.6A;726;2.1;2.1;2.2;2.1;;;;10 Minuten;Was sind deine Lieblingszutaten?;Wieviel Zeit hast du zum Kochen?;0;0;4;audio
+VP1.6A;727;2.2;2.1;2.2;2.2;;;;Gemuese;Welches Gemuese magst du?;Was sind deine Lieblingszutaten?;0;0;4;audio
+VP1.6A;728;2.2;2.2;2.2;2.2;;;;Paprika;Welche Zutaten wuerdest du niemals benuetzen?;Welches Gemuese magst du?;0;0;4;audio
+VP1.6A;729;2.2;2.2;3.1;2.2;;;;Schokolade;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Frischkaese-Paprika-Schiffchen im Speckmantel"". Wie klingt das fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;audio
+VP1.6A;730;3.1;2.2;3.2;3.1;0;;;Gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Frischkaese-Paprika-Schiffchen im Speckmantel"". Wie klingt das fuer dich?";0;0;4;audio
+VP1.6A;731;3.2;3.1;3.4;3.2;;;;Nein Danke;Rezept;Moechtest du die Zutatenliste sehen?;0;0;4;audio
+VP1.9A;732;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;4;audio
+VP1.9A;733;2.1;1;2.1;1;1;1;1;Ich braeuchte ein Rezept, jetzt schnell vor dem Joggen;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Hallo! Was kann ich fuer dich tun?;0;0;4;audio
+VP1.9A;734;2.1;2.1;2.2;2.1;;;;Soweit das ich fast alles kochen kann;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;4;audio
+VP1.9A;735;2.1;2.1;2.1;2.2;;;;Nein gibt es nicht;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;4;audio
+VP1.9A;736;2.1;2.1;2.2;2.1;;;;am besten nur kochen und nichts im Ofen;Welche Zutaten wuerdest du niemals benuetzen?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;4;audio
+VP1.9A;737;2.2;2.1;2.2;2.2;;;;Brokkoli wuerde ich nie benuetzen;Welches Gemuese magst du?;Welche Zutaten wuerdest du niemals benuetzen?;0;0;4;audio
+VP1.9A;738;2.2;2.2;3.1;2.2;;;;Kohlrabi, Zucchini;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kohlrabi-Rettich-Zucchini-Gemuese"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;4;audio
+VP1.9A;739;3.1;2.2;3.4;3.1;1;;;Klingt gut, ich haette gerne das Rezept;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Kohlrabi-Rettich-Zucchini-Gemuese"". Wie klingt das fuer dich?";0;0;4;audio
+VP1.1A;740;1;-1;1;-1;;;;HeyTeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;audio
+VP1.1A;741;2.1;1;2.2;1;0;1;1;Suche nach einem Rezept fuer Abendbrot;Was sind deine Lieblingszutaten?;Hallo! Was kann ich fuer dich tun?;0;0;5;audio
+VP1.1A;742;2.2;2.1;2.2;2.2;;;;Eier;Welche Zutaten wuerdest du niemals benuetzen?;Was sind deine Lieblingszutaten?;0;0;5;audio
+VP1.1A;743;2.2;2.2;2.1;2.2;;;;Kuemmel;Wieviel Zeit hast du zum Kochen?;Welche Zutaten wuerdest du niemals benuetzen?;0;0;5;audio
+VP1.1A;744;2.1;2.2;3.1;2.1;;;;20 Minuten;"Wie klingt ""Ei Muffin"" fuer dich?";Wieviel Zeit hast du zum Kochen?;0;0;5;audio
+VP1.1A;745;3.1;2.1;3.2;3.1;0;;;Sehr gut;Moechtest du die Zutatenliste sehen?;"Wie klingt ""Ei Muffin"" fuer dich?";0;0;5;audio
+VP1.1A;746;3.2;3.1;3.4;3.2;;;;Ja, bitte;Link/ Wie gefaellt dir das Rezept?;Moechtest du die Zutatenliste sehen?;0;0;5;audio
+VP1.1A;747;3.3;3.2;-1;3.4;;;;Sehr gut;NaN;Link/ Wie gefaellt dir das Rezept?;0;0;5;audio
+VP1.6A;748;1;-1;1;-1;;;;Hey TeleFood ich such was essen vorm Bett gehen.;Hallo! Was kann ich fuer dich tun?;;0;0;5;audio
+VP1.6A;749;2.1;1;2.1;1;0;1;0;Hey TeleFood ich such was zum essen vor dem Bett gehen.;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;5;audio
+VP1.6A;750;2.1;2.1;2.1;2.1;;;;Nicht lange;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Wieviel Zeit hast du zum Kochen?;0;0;5;audio
+VP1.6A;751;2.1;2.1;2.1;2.1;;;;Nein das ist mir egal;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;5;audio
+VP1.6A;752;2.1;2.1;2.1;2.1;;;;Nudeln;Wie stehst du zu regionaler Kueche?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;5;audio
+VP1.6A;753;2.1;2.1;2.2;2.1;;;;passt, ist ok;Was sind deine Lieblingszutaten?;Wie stehst du zu regionaler Kueche?;0;0;5;audio
+VP1.6A;754;2.2;2.1;3.1;2.2;;;;Nudeln und Paprika;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit scharfer Puten-Paprika Sauce"". Wie klingt das fuer dich?";Was sind deine Lieblingszutaten?;0;0;5;audio
+VP1.6A;755;3.1;2.2;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln mit scharfer Puten-Paprika Sauce"". Wie klingt das fuer dich?";0;0;5;audio
+VP1.6A;756;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;audio
+VP1.6A;757;3.3;3.2;3.4;3.3;;;;perfekt;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;5;audio
+VP1.6A;758;3.4;3.3;3.4;3.4;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;5;audio
+VP1.7A;759;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;audio
+VP1.7A;760;2.1;1;2.1;1;0;1;0;Suche mir ein schnelles Rezept heraus;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;audio
+VP1.7A;761;2.2;2.1;2.1;2.1;;;;Ein Gericht mir Hackfleisch;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;audio
+VP1.7A;762;2.1;2.2;2.1;2.1;;;;mittelmaeÌÙig;Erwartest du Besuch oder kochst du fuer dich allein?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;audio
+VP1.7A;763;2.1;2.1;2.2;2.1;;;;ich koche fuer mich alleine;Welches Gemuese magst du?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;5;audio
+VP1.7A;764;2.2;2.1;2.2;2.2;;;;alles;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Welches Gemuese magst du?;0;0;5;audio
+VP1.7A;765;2.2;2.2;2.2;2.2;;;;Nudeln;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;5;audio
+VP1.7A;766;2.2;2.2;3.1;2.2;;;;nein;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln-Hack-Gratin"".
+
+ 
+
+Wie klingt das fuer dich?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;5;audio
+VP1.7A;767;3.1;2.2;3.2;3.1;0;;;das klingt sehr gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln-Hack-Gratin"".
+
+ 
+
+Wie klingt das fuer dich?";0;0;5;audio
+VP1.7A;768;3.2;3.1;3.3;3.2;;;;ja bitte;Zutatenliste / Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;5;audio
+VP1.7A;769;3.3;3.2;3.4;3.3;;;;gut;Moechtest du das Rezept sehen?;Zutatenliste / Wie findest du die Zutaten?;0;0;5;audio
+VP1.7A;770;3.4;3.3;3.4;3.4;;;;ja bitte;Rezept;Moechtest du das Rezept sehen?;0;0;5;audio
+VP2.2A;771;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;5;audio
+VP2.2A;772;2.1;1;2.1;1;0;1;0;Such mir ein Rezept das man auf 5 Minuten kochen kann;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;5;audio
+VP2.2A;773;2.1;2.1;2.1;2.1;;;;Empfehle mir irgendwas;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;5;audio
+VP2.2A;774;2.1;2.1;2.1;2.1;;;;profi;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;5;audio
+VP2.2A;775;2.1;2.1;2.1;2.1;;;;kein Fleisch;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden moechtest?;0;0;5;audio
+VP2.2A;776;2.1;2.1;0;2.1;;;;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;1;5;audio
+VP2.2A;777;2.1;2.1;2.2;0;;;;Zu Nudelrezepten;Welches Gemuese magst du?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;5;audio
+VP2.2A;778;2.2;2.1;3.1;2.2;;;;Spinat;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln in cremiger Spinat-KaesesoÌÙe"". Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;5;audio
+VP2.2A;779;3.1;2.2;3.4;3.1;1;;;gut, gut zeige es mir bitte;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Nudeln in cremiger Spinat-KaesesoÌÙe"". Wie klingt das fuer dich?";0;0;5;audio
+VP2.2A;780;4;3.1;-1;3.4;;;;Vielen Dank;NaN;Rezept;0;0;5;audio
+VP1.1A;781;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.1A;782;2.1;1;2.1;1;0;1;0;Suche nach einem Rezept fuer ein schnell zubereitetes Gericht;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.1A;783;2.1;2.1;2.2;2.1;;;;Eier;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Auf was hast du Lust?;0;0;6;audio
+VP1.1A;784;2.2;2.1;2.1;2.2;;;;Reis;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;6;audio
+VP1.1A;785;2.1;2.2;2.2;2.1;;;;Durchschnittlich;Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;6;audio
+VP1.1A;786;2.2;2.1;3.1;2.2;;;;Schnittlauch;"Wie klingt ""Herzhaftes Fruehstueck - Reis mit Schinken und Ei"" fuer dich?";Gibt es spezielle Zutaten, die du magst? Wie beispielsweise Szechuan Pfeffer oder Tamarinde?;0;0;6;audio
+VP1.1A;787;3.1;2.2;3.2;3.1;0;;;Sehr gut;Moechtest du die Rezeptliste sehen?;"Wie klingt ""Herzhaftes Fruehstueck - Reis mit Schinken und Ei"" fuer dich?";0;0;6;audio
+VP1.1A;788;3.2;3.1;3.3;3.2;;;;Ja, bitte;Liste / Wie gefallen dir die Zutaten?;Moechtest du die Rezeptliste sehen?;0;0;6;audio
+VP1.1A;789;3.3;3.2;3.4;3.3;;;;Gut;Moechtest du das Rezept sehen?;Liste / Wie gefallen dir die Zutaten?;0;0;6;audio
+VP1.1A;790;3.4;3.3;;3.4;;;;Ja, bitte;Link;Moechtest du das Rezept sehen?;0;0;6;audio
+VP1.4A;791;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.4A;792;2.1;1;2.1;1;0;1;2;Ich will ein einfaches, leichtes Gericht mit Gemuese;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.4A;793;2.2;2.1;2.2;2.1;;;;Gut. Das Gericht soll mit Karotten sein aber ohne Spargel;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;0;6;audio
+VP1.4A;794;2.2;2.2;3.1;2.2;;;;Kartoffeln;"Du hast erwaehnt, dass du Karotten , Kartoffeln magst, wie klingt ""Kartoffel-Erbsen-Moehren-Auflauf"" fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;6;audio
+VP1.4A;795;3.1;2.2;3.4;3.1;0;;;Zeig mir das Rezept;Link / Wie findest du das Rezept;"Du hast erwaehnt, dass du Karotten , Kartoffeln magst, wie klingt ""Kartoffel-Erbsen-Moehren-Auflauf"" fuer dich?";0;0;6;audio
+VP1.4A;796;4;3.1;-1;3.4;;;;Gut;NaN;Link / Wie findest du das Rezept;0;0;6;audio
+VP1.5A;797;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.5A;798;2.1;1;2.1;1;0;1;0;Ich will etwas schnell kochen;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.5A;799;2.2;2.1;2.2;2.1;;;;Etwas mit Milch und Banane;Welche Zutaten wuerdest du niemals benuetzen?;Auf was hast du Lust?;0;0;6;audio
+VP1.5A;800;2.2;2.2;0;2.2;;;;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Welche Zutaten wuerdest du niemals benuetzen?;0;1;6;audio
+VP1.5A;801;2.2;2.2;3.1;0;;;;Ohne Pfeffer;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bananen-Erdnuss-Milch"". Wie klingt das fuer dich?";Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;6;audio
+VP1.5A;802;3.1;2.2;3.2;3.1;0;;;Ja klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bananen-Erdnuss-Milch"". Wie klingt das fuer dich?";0;0;6;audio
+VP1.5A;803;3.2;3.1;3.3;3.2;;;;ja;Zutatenliste/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;6;audio
+VP1.5A;804;3.3;3.2;2.2;3.3;;;;kann ich anderes sehen?;Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;Zutatenliste/ Wie findest du die Zutaten?;0;0;6;audio
+VP1.5A;805;2.2;3.3;3.1;2.2;;;;Erdnuss;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bananen-Zimt-Milch"". Wie klingt das fuer dich?";Das tut mir Leid. Welche Zutaten wuerdest du niemals benuetzen?;0;0;6;audio
+VP1.5A;806;3.1;2.2;3.4;3.1;0;;;ja kann ich das schauen?;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Bananen-Zimt-Milch"". Wie klingt das fuer dich?";0;0;6;audio
+VP1.7A;807;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.7A;808;2.1;1;2.1;1;0;1;0;Suche mir ein leichtes Rezept;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.7A;809;2.1;2.1;2.1;2.1;;;;wenig;Auf was hast du Lust?;Wieviel Zeit hast du zum Kochen?;0;0;6;audio
+VP1.7A;810;2.1;2.1;2.1;2.1;;;;egal;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;Auf was hast du Lust?;0;0;6;audio
+VP1.7A;811;2.1;2.1;5;2.1;;;;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Wie wuerdest du deine Kochfertigkeiten einschaetzen?;0;1;6;audio
+VP1.7A;812;2.1;2.1;2.2;5;;;;nicht gut;Was sind deine Lieblingszutaten?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;6;audio
+VP1.7A;813;2.2;2.1;2.1;2.2;;;;egal;Wie stehst du zu regionaler Kueche?;Was sind deine Lieblingszutaten?;0;0;6;audio
+VP1.7A;814;2.1;2.2;2.1;2.1;;;;gut;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;Wie stehst du zu regionaler Kueche?;0;0;6;audio
+VP1.7A;815;2.1;2.1;2.1;2.1;;;;Rezept des Tages;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;Zu was fuer Rezepten greifst du normalerweise, wenn du etwas kochen moechtest?;0;0;6;audio
+VP1.7A;816;2.1;2.1;0;2.1;;;;NaN;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;0;1;6;audio
+VP1.7A;817;2.1;2.1;2.2;0;;;;leichtes Essen bitte;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;6;audio
+VP1.7A;818;2.2;2.1;2.2;2.2;;;;Reis;Welches Gemuese magst du?;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;6;audio
+VP1.7A;819;2.2;2.2;3.1;2.2;;;;kein Gemuese;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gebratener Reis"".
+
+ 
+
+Wie klingt das fuer dich?";Welches Gemuese magst du?;0;0;6;audio
+VP1.7A;820;3.1;2.2;3.2;3.1;0;;;klingt gut;Moechtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Gebratener Reis"".
+
+ 
+
+Wie klingt das fuer dich?";0;0;6;audio
+VP1.7A;821;3.2;3.1;3.4;3.2;;;;Zeige mir das Rezept;Rezept;Moechtest du die Zutatenliste sehen?;0;0;6;audio
+VP1.8A;822;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.8A;823;2.1;1;2.1;1;0;1;0;Ich suche nach einem schnellen Rezept;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.8A;824;2.2;2.1;2.2;2.1;;;;Auf etwas mit Toast;Was sind deine Lieblingszutaten?;Auf was hast du Lust?;0;0;6;audio
+VP1.8A;825;2.2;2.2;2.2;2.2;;;;Tomaten;Welche Zutaten wuerdest du niemals benuetzen?;Was sind deine Lieblingszutaten?;0;0;6;audio
+VP1.8A;826;2.2;2.2;3.1;2.2;;;;Ziegenkaese;"Du hast erwaehnt, dass du Toast,Tomate magst, wie klingt ""Tomate-Mozzarella Toast"" fuer dich?";Welche Zutaten wuerdest du niemals benuetzen?;0;0;6;audio
+VP1.8A;827;3.1;2.2;3.2;3.1;0;;;Das klingt sehr gut;Moechtest du die Zutatenliste sehen?;"Du hast erwaehnt, dass du Toast,Tomate magst, wie klingt ""Tomate-Mozzarella Toast"" fuer dich?";0;0;6;audio
+VP1.8A;828;3.2;3.1;3.3;3.2;;;;Ja bitte;Zutatenliste/ Wie findest du die Zutaten?;Moechtest du die Zutatenliste sehen?;0;0;6;audio
+VP1.8A;829;3.3;3.2;3.4;3.3;;;;Sehr gut;Moechtest du das Rezept sehen?;Zutatenliste/ Wie findest du die Zutaten?;0;0;6;audio
+VP1.8A;830;3.4;3.3;3.4;3.4;;;;ja;Rezept;Moechtest du das Rezept sehen?;0;0;6;audio
+VP1.9A;831;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fuer dich tun?;;0;0;6;audio
+VP1.9A;832;2.1;1;2.1;1;0;1;0;Ich brauche ein Gericht, ein schnelles Gericht;Auf was hast du Lust?;Hallo! Was kann ich fuer dich tun?;0;0;6;audio
+VP1.9A;833;2.1;2.1;2.1;2.1;;;;Ist egal, es sollte schnell gehen;Erwartest du Besuch oder kochst du fuer dich allein?;Auf was hast du Lust?;0;0;6;audio
+VP1.9A;834;2.1;2.1;2.1;2.1;;;;Ich koche fuer mich alleine;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;Erwartest du Besuch oder kochst du fuer dich allein?;0;0;6;audio
+VP1.9A;835;2.1;2.1;2.1;2.1;;;;Etwas leichtes, da ich gleich ins Bett gehen will;Wie stehst du zu regionaler Kueche?;Wie stehst du zu deftigem/leichtem/saisonalem Essen?;0;0;6;audio
+VP1.9A;836;2.1;2.1;2.2;2.1;;;;Regional ist immer gut;Was sind deine Lieblingszutaten?;Wie stehst du zu regionaler Kueche?;0;0;6;audio
+VP1.9A;837;2.2;2.1;2.2;2.2;;;;Paprika;Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;Was sind deine Lieblingszutaten?;0;0;6;audio
+VP1.9A;838;2.2;2.2;3.1;2.2;;;;Nudeln und Reis;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Paprika-Reis-Hackfleisch-Topf"". Wie klingt das fuer dich?";Welche Kohlenhydratquelle bevorzugst du normalerweise? Beispielsweise Kartoffeln, Nudeln oder Reis?;0;0;6;audio
+VP1.9A;839;3.1;2.2;3.4;3.1;0;;;Klingt gut, kann ichdas Rezept haben?;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden ""Paprika-Reis-Hackfleisch-Topf"". Wie klingt das fuer dich?";0;0;6;audio
+VP2.3A;840;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;5;audio
+VP2.3A;841;2.1;1;2.1;1;0;1;0;Gib mir ein Rezept das schnell geht;Wieviel Zeit hast du zum Kochen?;Hallo! Was kann ich fŸr dich tun?;0;0;5;audio
+VP2.3A;842;2.1;2.1;2.1;2.1;;;;15 minuten;Wie wŸrdest du deine Kochfertigkeiten einschŠtzen?;Wieviel Zeit hast du zum Kochen?;0;0;5;audio
+VP2.3A;843;2.1;2.1;2.1;2.1;;;;sehr gut;Zu was fŸr Rezepten greifst du normalerweise, wenn du etwas kochen mšchtest?;Wie wŸrdest du deine Kochfertigkeiten einschŠtzen?;0;0;5;audio
+VP2.3A;844;2.2;2.1;3.1;2.1;;;;normalerweise, so Nudeln- oder Reisgerichte mit GemŸsebeilagen;"Du hast erwŠhnt, dass du GemŸse, Reis magst, wie klingt ""Reis-GemŸse-Pfanne mit FrischkŠse"" fŸr dich?";Zu was fŸr Rezepten greifst du normalerweise, wenn du etwas kochen mšchtest?;0;0;5;audio
+VP2.3A;845;3.1;2.2;3.2;3.1;0;;;klingt sehr gut;Mšchtest du die Zutaten sehen?;"Du hast erwŠhnt, dass du GemŸse, Reis magst, wie klingt ""Reis-GemŸse-Pfanne mit FrischkŠse"" fŸr dich?";0;0;5;audio
+VP2.3A;846;3.2;3.1;3.3;3.2;;;;ja gerne;Zutatenliste / Wie findest du die Zutaten?;Mšchtest du die Zutaten sehen?;0;0;5;audio
+VP2.3A;847;5;3.2;0;3.3;;;;kann ich die Erbsen weglassen?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Zutatenliste / Wie findest du die Zutaten?;0;1;5;audio
+VP2.3A;848;5;5;5;0;;;;kann ich die Erbsen einfach weglassen?;Individualisierungen sind mšglich;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;1;5;audio
+VP2.3A;849;4;5;3.4;5;;;;ok passt;Rezept;Individualisierungen sind mšglich;0;0;5;audio
+VP2.3A;850;4;4;-1;3.4;;;;super, vielen Dank;NaN;Rezept;0;0;1;audio
+VP2.3A;851;1;-1;-1;-1;;;;Hey TeleFood;NaN;NaN;0;0;1;audio
+VP2.3A;852;2.1;1;0;-1;;;;schickst du mir bitte ein Rezept mit nicht so vielen Fleischersatzprodukten? Also lieber was mit frischem GemŸse oder so.;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;NaN;0;0;1;audio
+VP2.3A;853;2.1;2.1;2.1;0;;;;Ich brache ein veganes Rezept mit nicht sovielen Fleischersatzprodukten, also Soja sondern lieber mit frischen GemŸse;Erwartest du Besuch oder kochst du fŸr dich allein?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;1;audio
+VP2.3A;854;2.1;2.1;2.1;2.1;;;;Ich koche fŸr drei Personen;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden mšchtest?;Erwartest du Besuch oder kochst du fŸr dich allein?;0;0;1;audio
+VP2.3A;855;2.1;2.1;2.2;2.1;;;;Nein;Welches GemŸse magst du?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden mšchtest?;0;0;1;audio
+VP2.3A;856;2.2;2.1;3.1;2.2;;;;Tomate, Zucchini, Aubergine eigentlich bin ich nicht wŠhlerisch;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Auberginen-Ršllchen vegan""";Welches GemŸse magst du?;0;0;1;audio
+VP2.3A;857;3.1;2.2;3.2;3.1;0;;;das klingt gut;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Auberginen-Ršllchen vegan""";0;0;1;audio
+VP2.3A;858;3.2;3.1;3.3;3.2;;;;ja, gerne;Zutatenliste / Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;1;audio
+VP2.3A;859;3.3;3.2;3.4;3.3;;;;sieht lecker aus;Rezept;Zutatenliste / Wie findest du die Zutaten?;0;0;1;audio
+VP2.3A;860;4;3.3;-1;3.4;;;;Danke;NaN;Rezept;0;0;1;audio
+VP2.3A;861;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;2;audio
+VP2.3A;862;2.1;1;2.2;1;0;1;0;Ich brauche ein Rezept fŸr einen veganen Kuchen;Was sind deine Lieblingszutaten?;Hallo! Was kann ich fŸr dich tun?;0;0;2;audio
+VP2.3A;863;2.2;2.1;2.2;2.2;;;;Etwas mit veganer schokolade wŠre gut;Welche Zutaten wŸrdest du niemals benŸtzen?;Was sind deine Lieblingszutaten?;0;0;2;audio
+VP2.3A;864;2.2;2.2;3.1;2.2;;;;Marzipan;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Veganer Schoko - Nuss - Kokos - Kuchen"" Wie klingt das fŸr dich?";Welche Zutaten wŸrdest du niemals benŸtzen?;0;0;2;audio
+VP2.3A;865;3.1;2.2;3.2;3.1;0;;;das klingt gut;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Veganer Schoko - Nuss - Kokos - Kuchen"" Wie klingt das fŸr dich?";0;0;2;audio
+VP2.3A;866;3.2;3.1;3.3;3.2;;;;ja gerne;Rezept / Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;2;audio
+VP2.3A;867;3.3;3.2;3.4;3.3;;;;klingt gut;Rezept;Rezept / Wie findest du die Zutaten?;0;0;2;audio
+VP2.3A;868;4;3.3;-1;3.4;;;;danke;NaN;Rezept;0;0;2;audio
+VP2.4A;869;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;1;audio
+VP2.4A;870;2.1;1;2.1;1;0;2;2;ich suche ein veganes rezept fŸr drei personen, die kochzeit spielt keine rolle;Auf was hast du Lust?;Hallo! Was kann ich fŸr dich tun?;0;0;1;audio
+VP2.4A;871;2.1;2.1;2.1;2.1;;;;ich hŠtte lust auf asiatisches essen;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden mšchtest?;Auf was hast du Lust?;0;0;1;audio
+VP2.4A;872;2.1;2.1;2.2;2.1;;;;ich habe leider keinen dampfgarer, deswegen wŠre es mir wichtig, dass es in der pfanne, im kochtop oder im backofen zubreitet wird;Welche Zutaten wŸrdest du niemals benŸtzen?;Gibt es spezielle Zubereitungsarten, die du magst oder welche die du nicht Anwenden mšchtest?;0;0;1;audio
+VP2.4A;873;2.2;2.1;3.1;2.2;;;;ich mag nicht so gerne zwiebeln, wenns geht ohne zwiebeln;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Gebratene Nudeln mit GemŸse, asiatisch"" Wie klingt das fŸr dich?";Welche Zutaten wŸrdest du niemals benŸtzen?;0;0;1;audio
+VP2.4A;874;3.1;2.2;3.2;3.1;0;;;oh ja das klingt sehr gut;Mšchtest du die Zutatenliste sehen?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Gebratene Nudeln mit GemŸse, asiatisch"" Wie klingt das fŸr dich?";0;0;1;audio
+VP2.4A;875;3.2;3.1;3.3;3.2;;;;ja gerne;Zutatenliste / Wie findest du die Zutaten?;Mšchtest du die Zutatenliste sehen?;0;0;1;audio
+VP2.4A;876;5;3.2;5;3.3;;;;ich finde die zutaten sehr einfach zu beschaffen, was ich sehr gut finde und Ÿbersichtlich ich wŸrde gerne wissen wie lange ich brauche um dieses gericht zuzubereiten;Dieses Rezept braucht 20 Min.;Zutatenliste / Wie findest du die Zutaten?;0;0;1;audio
+VP2.4A;877;5;5;0;5;;;;kannst du mir einen ort nennen oder einen supermarkt nennen wo ich all diese zutaten herbekomme?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;Dieses Rezept braucht 20 Min.;0;0;1;audio
+VP2.4A;878;5;5;5;0;;;;ok dann eine andere frage, kann man die im rezept genannten mur-err pilze durch andere pilze ersetzen?;Individualisierungen sind mšglich.;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;1;audio
+VP2.4A;879;5;5;3.4;5;;;;ok passt. Wie bereite ich dieses gericht zu?;Rezept;Individualisierungen sind mšglich.;0;0;1;audio
+VP2.4A;880;4;5;-1;3.4;;;;ok passt, danke;NaN;Rezept;0;0;1;audio
+VP2.4A;881;1;-1;1;-1;;;;Hey Telefood;Hallo! Was kann ich fŸr dich tun?;;0;0;2;audio
+VP2.4A;882;2.1;1;2.2;1;0;1;1;ich suche ein rezept fŸr einen laktosefreien geburtstagskuchen;Was sind deine Lieblingszutaten in Kuchen?;Hallo! Was kann ich fŸr dich tun?;0;0;2;audio
+VP2.4A;883;2.2;2.1;3.1;2.2;;;;ich mag gerne edbeeren und schokolade, aber es ist ganz wichtig, dass alles laktosefrei bleibt;"Du hast erwŠhnt, dass du Erdbeeren,Schokolade magst, wie klingt ""Beerentorte von MIK"" fŸr dich?";Was sind deine Lieblingszutaten in Kuchen?;0;0;2;audio
+VP2.4A;884;5;2.2;0;3.1;;;;Was ist MIK?;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;"Du hast erwŠhnt, dass du Erdbeeren,Schokolade magst, wie klingt ""Beerentorte von MIK"" fŸr dich?";0;0;2;audio
+VP2.4A;885;3.1;5;3.4;0;0;;;passt schon, mitlerweile hab ichs verstanden. Kannst du mir das rezept zu Beerentorte von mik schicken?;Rezept;Es tut mir leid, das habe ich nicht verstanden. Kannst du es neu formulieren?;0;0;2;audio
+VP2.4A;886;2.2;3.1;3.1;3.4;;;;ok ich sehe gerade, das in dem rezept ganz viele andere beeren miteinbegriffen sind. Ich mag aber echt nur erdbeeren. Kannst du mir ein Rezept schicken, in dem nur erdbeeren und schokolade sind?;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Schoko - Erdbeer -Kuchen"" Wie klingt das fŸr dich?";Rezept;0;0;2;audio
+VP2.4A;887;3.1;2.2;3.4;3.1;0;;;sehr gut, kannst du mir das rezept fŸr diesen kuchen schicken?;Rezept;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""Schoko - Erdbeer -Kuchen"" Wie klingt das fŸr dich?";0;0;2;audio
+VP2.4A;888;4;3.1;-1;3.4;;;;ja passt, das rezept finde ich sehr gut;NaN;Rezept;0;0;2;audio
+VP2.4A;889;1;-1;1;-1;;;;Hey TeleFood;Hallo! Was kann ich fŸr dich tun?;;0;0;2;audio
+VP2.4A;890;2.1;1;2.1;1;1;2;2;ich wŸrde gerne ein rezept was ich in maximal 10 minuten kochen kann bekommen und das hat keine einschrŠnkungen. Also es darf sowohl mit fleisch also auch mit laktose, als auch mit gluten sein;Auf was hast du Lust?;Hallo! Was kann ich fŸr dich tun?;0;0;2;audio
+VP2.4A;891;2.2;2.1;3.1;2.1;;;;auf etwas scharfes mit kŠse und hŠhnchenfleisch;"Du hast erwŠhnt, dass du HŠhnchen und KŠse magst, wie klingt ""HŠhnchen-KŠse-BŠllchen"" fŸr dich?";Auf was hast du Lust?;0;0;3;audio
+VP2.4A;892;3.1;2.2;3.3;3.1;1;;;das klingt gut, kannst du mir dafŸr bitte die zutaten schicken?;Zutatenliste / Wie findest du die Zutaten?;"Du hast erwŠhnt, dass du HŠhnchen und KŠse magst, wie klingt ""HŠhnchen-KŠse-BŠllchen"" fŸr dich?";0;0;3;audio
+VP2.4A;893;3.3;3.1;2.2;3.3;;;;ich habe leider keine eier zuhause, kannst du mir ein anderes rezept schicken?;Welche Zutaten wŸrdest du niemals benŸtzen?;Zutatenliste / Wie findest du die Zutaten?;0;0;3;audio
+VP2.4A;894;2.2;3.3;3.1;2.2;;;;Zwiebeln;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""†berbackenes Tomaten-HŠhnchen"" Wie klingt das fŸr dich?";Welche Zutaten wŸrdest du niemals benŸtzen?;0;0;3;audio
+VP2.4A;895;3.1;2.2;3.3;3.1;0;;;das klingt sehr gut, kannst du mir die zutaten und die bearbeitungszeit des rezeptes schicken?;Zutatenliste, Zubereitung;"Mithilfe der Zutaten, die du mir genannt hast, habe ich folgendes Rezept gefunden: ""†berbackenes Tomaten-HŠhnchen"" Wie klingt das fŸr dich?";0;0;3;audio
+VP2.4A;896;3.3;3.1;3.4;3.3;;;;das passt, danke telefood;rezept;Zutatenliste, Zubereitung;0;0;3;audio
+;;;;;;;;;;;rezept;;;;
